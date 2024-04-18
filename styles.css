@@ -114,24 +114,24 @@ nav{
 }
 
 /* Image Section */
-.image_container{
+.image-container{
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     place-content: center;
 }
-.image_container img{
+.image-container img{
     width: 90%;
     max-width: 300px;
     margin: auto;
     border-radius: 10px;
 }
-.image_container img:nth-child(1){
-    transform: translateY(70px);
+.image-container img:nth-child(1){
+    transform: translateY(40px);
 }
-.image_container img:nth-child(2){
-    transform: translateY(-70px);
+.image-container img:nth-child(2){
+    transform: translateY(-40px);
 }
 
 /* Footer Section */

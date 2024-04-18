@@ -151,3 +151,54 @@ nav{
 .footer p {
     margin: 0;
 }
+
+@media (max-width: 376px) {
+    /* Adjust button layout to stack horizontally */
+    .btn-container {
+        flex-direction: column;
+        justify-content: center; /* Stack buttons vertically */
+    }
+
+    /* Ensure footer is displayed below content */
+    .footer {
+        position: relative; /* Ensure it follows the content */
+        margin-top: 20px; /* Add some space between content and footer */
+    }
+}
+
+@media (max-width: 900px) {
+    /* Hide links except for navigation button on mobile */
+    /* .link a:not(.nav_btn) {
+        display: none;
+    } */
+
+    /* Adjust grid layout to single column */
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Center align content */
+    .content_container {
+        text-align: center;
+    }
+
+    /* Center align form */
+    .content_container form {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* Adjust image container to take full width */
+    .image_container {
+        grid-area: auto; /* Reset grid area */
+    }
+
+    /* Ensure image stays centered */
+    .image_container img {
+        transform: translateY(0) !important;
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+
+

@@ -45,6 +45,9 @@ nav{
     text-decoration: none;
     transition: 0.4s;
 }
+/* .nav_logo img {
+    font-size: 20px;
+} */
 
 .nav_links{
     list-style: none;
@@ -143,7 +146,8 @@ nav{
     color: var(--primary-color-dark);
     padding: 20px 0;
     text-align: center;
-    position: fixed;
+    position: relative;
+    /* margin-top: 20px; */
     width: 100%;
     bottom: 0;
 }
@@ -153,16 +157,14 @@ nav{
 }
 
 @media (max-width: 376px) {
-    /* Adjust button layout to stack horizontally */
     .btn-container {
         flex-direction: column;
-        justify-content: center; /* Stack buttons vertically */
+        justify-content: center;
     }
 
-    /* Ensure footer is displayed below content */
     .footer {
-        position: relative; /* Ensure it follows the content */
-        margin-top: 20px; /* Add some space between content and footer */
+        position: relative;
+        margin-top: 20px;
     }
 }
 

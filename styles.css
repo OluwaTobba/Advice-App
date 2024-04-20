@@ -38,6 +38,8 @@ nav{
     justify-content: space-between;
 }
 
+
+
 .nav_logo a{
     font-size: 1.5rem;
     font-weight: 500;
@@ -47,6 +49,8 @@ nav{
 }
 .nav_logo img {
     width: 10rem;
+    transition: 0.5s;
+    /* margin-left: -15px; */
 }
 
 .nav_links{
@@ -118,7 +122,7 @@ nav{
     transition: background-color 0.5s ease;
 }
 .btn-container .btn:last-child {
-    margin-right: 0; /* Remove margin for the last button */
+    margin-right: 0;
 }
 .btn-container .btn:hover {
     background-color: var(--secondary-color);
@@ -145,6 +149,12 @@ nav{
 /* .image-container img:nth-child(2){
     transform: translateX(70px);
 } */
+
+
+
+
+
+
 
 /* Footer Section */
 .footer {
@@ -194,36 +204,30 @@ nav{
 }
 
 @media (max-width: 900px) {
-    /* Hide links except for navigation button on mobile */
     /* .link a:not(.nav_btn) {
         display: none;
     } */
 
-    /* Adjust grid layout to single column */
     .container {
         grid-template-columns: 1fr;
     }
 
-    /* Center align content */
     .content_container {
         text-align: center;
     }
 
-    /* Center align form */
     .content_container form {
         margin-right: auto;
         margin-left: auto;
     }
 
-    /* Adjust image container to take full width */
     .image_container {
-        grid-area: auto; /* Reset grid area */
+        grid-area: auto;
     }
 
-    /* Ensure image stays centered */
     .image_container img {
         transform: translateY(0) !important;
-        margin: 0 auto; /* Center the image */
+        margin: 0 auto;
     }
 }
 

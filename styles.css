@@ -209,6 +209,10 @@ details p {
     color: var(--primary-color);
     border-top: 1px solid var(--primary-color-dark);
 }
+details p:hover {
+    background-color: var(--btn-color);
+    color: var(--secondary-color);
+}
 
 
 

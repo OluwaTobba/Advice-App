@@ -45,9 +45,9 @@ nav{
     text-decoration: none;
     transition: 0.4s;
 }
-/* .nav_logo img {
-    font-size: 20px;
-} */
+.nav_logo img {
+    width: 10rem;
+}
 
 .nav_links{
     list-style: none;
@@ -156,7 +156,16 @@ nav{
     margin: 0;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 420px) {
+    .link a:not(.nav_btn) {
+        display: none;
+    }
+
+    .nav_logo img {
+        margin-left: 100px;
+        width: 8rem;
+    }
+
     .btn-container {
         flex-direction: column;
         justify-content: center;

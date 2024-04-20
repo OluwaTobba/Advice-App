@@ -68,6 +68,10 @@ nav{
     color: var(--btn-color);
 }
 
+.link-1 a{
+    color: var(--btn-color);
+}
+
 .container{
     max-width: var(--max-width);
     margin: auto;

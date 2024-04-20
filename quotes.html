@@ -28,9 +28,12 @@
     </header>
 
     <footer class="footer">
-        <p>&copy; 2024 MI Quotes & Advice WebApp. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> MI Quotes & Advice WebApp. All rights reserved.</p>
     </footer>
 
     <script src="/main.js"></script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>

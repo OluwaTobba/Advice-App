@@ -97,6 +97,7 @@ nav{
 }
 .content-container p{
     font-size: 1rem;
+    
     color: var(--text-color);
     margin-bottom: 2rem;
 }
@@ -135,11 +136,11 @@ nav{
     border-radius: 10px;
 }
 .image-container img:nth-child(1){
-    transform: translateY(40px);
+    transform: translateX(55px);
 }
-.image-container img:nth-child(2){
-    transform: translateY(-40px);
-}
+/* .image-container img:nth-child(2){
+    transform: translateX(70px);
+} */
 
 /* Footer Section */
 .footer {

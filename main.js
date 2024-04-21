@@ -29,8 +29,8 @@ function closeModal(modalId) {
 document.querySelectorAll('.advice-section details p').forEach((p, index) => {
     p.addEventListener('click', () => {
         const modalId = `modal${index + 1}`;
-        const adviceIndex = index; // Get the index of the clicked <p> element
-        const advice = advices[adviceIndex]; // Get the corresponding advice object
+        const adviceIndex = index;
+        const advice = advices[adviceIndex];
         openModal(modalId, advice);
     });
 });

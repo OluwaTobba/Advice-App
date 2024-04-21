@@ -228,10 +228,9 @@ details p:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--modal-color); /* Semi-transparent black background */
+    background-color: var(--modal-color);
 }
 
-/* Style the modal content */
 .modal-content {
     background-color: var(--primary-color-dark);
     padding: 20px;
@@ -240,7 +239,6 @@ details p:hover {
     position: relative;
 }
 
-/* Style the close button */
 .close {
     color: #aaa;
     position: absolute;
@@ -257,7 +255,6 @@ details p:hover {
     cursor: pointer;
 }
 
-/* Style the advice */
 .advice {
     font-family:  "Kanit", sans-serif;
     font-weight: bold;
@@ -265,7 +262,6 @@ details p:hover {
     background-color: var(--close-btn);
 }
 
-/* Style the person's name */
 .person {
     font-family: "Platypi", serif;
     font-style: italic;

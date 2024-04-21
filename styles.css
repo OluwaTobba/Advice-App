@@ -6,6 +6,7 @@
     --secondary-color: #0c0116;
     --text-color: #ffffff;
     --btn-color: #a6a6a6;
+    --close-btn: #850000;
     --max-width: 1100px;
 }
 
@@ -213,6 +214,53 @@ details p:hover {
     background-color: var(--btn-color);
     color: var(--secondary-color);
 }
+
+/* Style the modal */
+.modal {
+    cursor: default;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    overflow: auto;
+    /* background-color: rgba(0, 0, 0, 0.4); Semi-transparent black background */
+}
+
+/* Style the modal content */
+.modal-content {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%;
+}
+
+.modal-content p {
+    border-top: 1px solid var(--primary-color-dark);
+}
+
+/* Style the close button */
+.close {
+    color: var(--text-color);
+    position: absolute;
+    float: right;
+    top: 5px;
+    right: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: var(--close-btn);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 
 

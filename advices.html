@@ -31,7 +31,14 @@
         <section class="advice-section">
             <details>
                 <summary>Dropdown 1</summary>
-                <p>Content for dropdown 1</p>
+                <p onclick="openModal('modal1')">Content for dropdown 1</p>
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal1')">&times;</span>
+                        <p class="modal-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam eos officiis exercitationem nulla cum quia aliquam, obcaecati autem dicta, molestias eveniet nobis fugit. Ducimus quas nisi nihil? Blanditiis, deleniti incidunt!</p>
+                        <p class="modal-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
                 <p>Content for dropdown 1</p>
                 <p>Content for dropdown 1</p>
                 <p>Content for dropdown 1</p>

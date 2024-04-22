@@ -1,25 +1,25 @@
 const advices = [
     {
-        content: "Advice content 1",
-        person: "Michael O."
+        content: "He who has health, has hope; and he who has hope, has everything.",
+        person: "Thomas Carlyle"
     },
     {
-        content: "Advice content 2",
-        person: "Jane Smith"
+        content: "Things work out best for those who make the best of how things work out.",
+        person: "John Wooden"
     },
     {
-        content: "Advice content 3",
-        person: "Jane Smith"
+        content: "Don't be afraid to give up the good to go for the great.",
+        person: "John D. Rockefeller"
     },
     {
-        content: "Advice content 4",
-        person: "Jane Smith"
+        content: "A great man does not seek applause or place; he seeks for truth; he seeks the road to happiness, and what he ascertains, he gives to others.",
+        person: "Robert Green Ingersoll"
     },
     {
-        content: "Advice content 5",
-        person: "Jane Smith"
+        content: "It is a grand mistake to think of being great without goodness",
+        person: "Benjamin Franklin"
     }
-    // Add more advices as needed
+    // Add more advices
 ];
 
 export default advices;

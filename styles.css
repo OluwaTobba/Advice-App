@@ -5,6 +5,7 @@
     --primary-color-dark: #e3e3e4;
     --secondary-color: #0c0116;
     --modal-color: #0c0116f0;
+    --modal-bg-color: #1c1a1ee6;
     --text-color: #ffffff;
     --btn-color: #a6a6a6;
     --close-btn: #850000;
@@ -232,9 +233,9 @@ details p:hover {
 }
 
 .modal-content {
-    background-color: var(--primary-color-dark);
+    background-color: var(--modal-bg-color);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
     position: relative;
 }
@@ -242,15 +243,16 @@ details p:hover {
 .close {
     color: #aaa;
     position: absolute;
+    margin-top: 2px;
     top: 0;
     right: 10px;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: var(--primary-color);
     text-decoration: none;
     cursor: pointer;
 }
@@ -258,14 +260,19 @@ details p:hover {
 .advice {
     font-family:  "Kanit", sans-serif;
     font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     background-color: var(--close-btn);
+    color: var(--primary-color-dark);
 }
 
 .person {
+    margin-top: 40px;
+    margin-bottom: 5px;
     font-family: "Platypi", serif;
     font-style: italic;
-    background-color: var(--text-color);
+    color: var(--text-color);
 }
 
 

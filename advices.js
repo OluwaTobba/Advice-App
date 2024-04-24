@@ -1,4 +1,5 @@
 const advices = [
+    // Personal Development
     {
         content: "Invest in continuous learning and personal growth.",
         person: ""
@@ -38,7 +39,51 @@ const advices = [
     {
         content: "Take ownership of your actions and choices.",
         person: ""
-    }
+    },
+    // career and success
+    {
+        content: "Pursue work that aligns with your passions and values.",
+        person: ""
+    },
+    {
+        content: "Network and build meaningful relationships in your industry.",
+        person: ""
+    },
+    {
+        content: "Be proactive in seeking out opportunities for growth and advancement.",
+        person: ""
+    },
+    {
+        content: "Develop strong communication and interpersonal skills.",
+        person: ""
+    },
+    {
+        content: "Seek feedback to continuously improve and refine your skills.",
+        person: ""
+    },
+    {
+        content: "Take calculated risks to advance your career.",
+        person: ""
+    },
+    {
+        content: "Cultivate a strong work ethic and maintain professionalism.",
+        person: ""
+    },
+    {
+        content: "Be adaptable and open to change in the workplace.",
+        person: ""
+    },
+    {
+        content: "Set boundaries to maintain a healthy work-life balance.",
+        person: ""
+    },
+    {
+        content: "Celebrate your achievements and milestones along the way.",
+        person: ""
+    },
+    
+
+
     // Add more advices
 ];
 

@@ -267,7 +267,8 @@ details p:hover {
     color: var(--primary-color-dark);
 }
 
-.person {
+.modal-content .person {
+    display: none;
     margin-top: 40px;
     margin-bottom: 5px;
     font-family: "Platypi", serif;

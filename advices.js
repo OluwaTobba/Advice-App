@@ -1,23 +1,43 @@
 const advices = [
     {
-        content: "He who has health, has hope; and he who has hope, has everything.",
-        person: "Thomas Carlyle"
+        content: "Invest in continuous learning and personal growth.",
+        person: ""
     },
     {
-        content: "Things work out best for those who make the best of how things work out.",
-        person: "John Wooden"
+        content: "Practice self-reflection to understand your strengths and weaknesses.",
+        person: ""
     },
     {
-        content: "Don't be afraid to give up the good to go for the great.",
-        person: "John D. Rockefeller"
+        content: "(Specific, Measurable, Achievable, Relevant, Time-bound)",
+        person: ""
     },
     {
-        content: "A great man does not seek applause or place; he seeks for truth; he seeks the road to happiness, and what he ascertains, he gives to others.",
-        person: "Robert Green Ingersoll"
+        content: "Embrace failure as a learning opportunity.",
+        person: ""
     },
     {
-        content: "It is a grand mistake to think of being great without goodness",
-        person: "Benjamin Franklin"
+        content: "Cultivate a positive mindset and practice gratitude daily.",
+        person: ""
+    },
+    {
+        content: "Prioritize self-care to maintain physical, mental, and emotional well-being.",
+        person: ""
+    },
+    {
+        content: "Step out of your comfort zone regularly to foster growth.",
+        person: ""
+    },
+    {
+        content: "Surround yourself with supportive and positive people.",
+        person: ""
+    },
+    {
+        content: "Develop resilience to bounce back from setbacks stronger than before.",
+        person: ""
+    },
+    {
+        content: "Take ownership of your actions and choices.",
+        person: ""
     }
     // Add more advices
 ];

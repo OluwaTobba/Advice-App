@@ -206,207 +206,207 @@ const advices = [
     },
     // Personal Productivity
     {
-        content: "",
+        content: "Prioritize tasks based on importance and urgency.",
         person: ""
     },
     {
-        content: "",
+        content: "Break larger tasks into smaller, manageable steps.",
         person: ""
     },
     {
-        content: "",
+        content: "Use productivity tools and techniques to stay organized.",
         person: ""
     },
     {
-        content: "",
+        content: "Set time limits for tasks to maintain focus and efficiency.",
         person: ""
     },
     {
-        content: "",
+        content: "Minimize distractions by creating a conducive work environment.",
         person: ""
     },
     {
-        content: "",
+        content: "Delegate tasks when possible to free up time for high-priority activities.",
         person: ""
     },
     {
-        content: "",
+        content: "Take regular breaks to recharge and prevent burnout.",
         person: ""
     },
     {
-        content: "",
+        content: "Use technology wisely to streamline processes and save time.",
         person: ""
     },
     {
-        content: "",
+        content: "Batch similar tasks together to improve productivity.",
         person: ""
     },
     {
-        content: "",
+        content: "Review and reflect on your productivity habits regularly for improvement.",
         person: ""
     },
     // Communication Skills
     {
-        content: "",
+        content: "Practice active listening to understand others' perspectives.",
         person: ""
     },
     {
-        content: "",
+        content: "Be clear and concise in your communication.",
         person: ""
     },
     {
-        content: "",
+        content: "Use non-verbal cues effectively to convey your message.",
         person: ""
     },
     {
-        content: "",
+        content: "Adapt your communication style to suit different audiences.",
         person: ""
     },
     {
-        content: "",
+        content: "Ask clarifying questions to ensure mutual understanding.",
         person: ""
     },
     {
-        content: "",
+        content: "Give constructive feedback in a respectful manner.",
         person: ""
     },
     {
-        content: "",
+        content: "Use 'I' statements to express thoughts and feelings without blame.",
         person: ""
     },
     {
-        content: "",
+        content: "Avoid interrupting others while they're speaking.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice empathy and try to see things from others' viewpoints.",
         person: ""
     },
     {
-        content: "",
+        content: "Be mindful of your tone and body language when communicating.",
         person: ""
     },
     // Creativity and Innovations
     {
-        content: "",
+        content: "Embrace curiosity and stay open to new ideas.",
         person: ""
     },
     {
-        content: "",
+        content: "Experiment with different approaches to problem-solving.",
         person: ""
     },
     {
-        content: "",
+        content: "Surround yourself with diverse perspectives and experiences.",
         person: ""
     },
     {
-        content: "",
+        content: "Foster a culture of creativity and innovation in your environment.",
         person: ""
     },
     {
-        content: "",
+        content: "Take inspiration from various sources, including nature, art, and technology.",
         person: ""
     },
     {
-        content: "",
+        content: "Allow yourself to make mistakes and learn from them.",
         person: ""
     },
     {
-        content: "",
+        content: "Collaborate with others to generate innovative solutions.",
         person: ""
     },
     {
-        content: "",
+        content: "Challenge assumptions and traditional thinking patterns.",
         person: ""
     },
     {
-        content: "",
+        content: "Set aside dedicated time for brainstorming and idea generation.",
         person: ""
     },
     {
-        content: "",
+        content: "Celebrate creativity and recognize innovative contributions.",
         person: ""
     },
     // Time Management
     {
-        content: "",
+        content: "Set clear priorities and focus on high-value activities.",
         person: ""
     },
     {
-        content: "",
+        content: "Use time-blocking to allocate specific time slots for tasks.",
         person: ""
     },
     {
-        content: "",
+        content: "Limit multitasking and concentrate on one task at a time.",
         person: ""
     },
     {
-        content: "",
+        content: "Set realistic deadlines and stick to them.",
         person: ""
     },
     {
-        content: "",
+        content: "Learn to say no to non-essential commitments.",
         person: ""
     },
     {
-        content: "",
+        content: "Use technology tools such as calendars and task managers to stay organized.",
         person: ""
     },
     {
-        content: "",
+        content: "Review your schedule regularly and make adjustments as needed.",
         person: ""
     },
     {
-        content: "",
+        content: "Allocate time for both work and leisure activities to maintain balance.",
         person: ""
     },
     {
-        content: "",
+        content: "Identify and eliminate time-wasting activities from your routine.",
         person: ""
     },
     {
-        content: "",
+        content: "Delegate tasks when appropriate to free up your time for more important activities.",
         person: ""
     },
     // Leadership and Influence
     {
-        content: "",
+        content: "Lead by example and demonstrate integrity in your actions.",
         person: ""
     },
     {
-        content: "",
+        content: "Communicate a compelling vision to inspire others.",
         person: ""
     },
     {
-        content: "",
+        content: "Empower and support your team members to reach their full potential.",
         person: ""
     },
     {
-        content: "",
+        content: "Foster a culture of trust, collaboration, and accountability.",
         person: ""
     },
     {
-        content: "",
+        content: "Recognize and appreciate the contributions of others.",
         person: ""
     },
     {
-        content: "",
+        content: "Solicit feedback and act on it to continuously improve.",
         person: ""
     },
     {
-        content: "",
+        content: "Develop your emotional intelligence to better understand and connect with others.",
         person: ""
     },
     {
-        content: "",
+        content: "Encourage innovation and creativity within your team.",
         person: ""
     },
     {
-        content: "",
+        content: "Handle conflicts and difficult conversations with empathy and respect.",
         person: ""
     },
     {
-        content: "",
+        content: "Invest in your own leadership development through training and mentorship.",
         person: ""
     },
 

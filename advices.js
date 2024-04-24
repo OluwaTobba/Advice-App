@@ -8,7 +8,7 @@ const advices = [
         person: ""
     },
     {
-        content: "(Specific, Measurable, Achievable, Relevant, Time-bound)",
+        content: "Set SMART goals: (Specific, Measurable, Achievable, Relevant, Time-bound)",
         person: ""
     },
     {

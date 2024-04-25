@@ -264,9 +264,10 @@ details p:hover {
     font-family:  "Kanit", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    padding: 5px 10px;
+    padding: 6px 12px;
     margin-top: 15px;
     margin-bottom: 10px;
+    border-radius: 13px;
     background-color: var(--close-btn);
     color: var(--primary-color-dark);
 }
@@ -327,6 +328,11 @@ details p:hover {
     
     .image-container {
         display: none;
+    }
+
+    .advice-section {
+        max-width: 90%;
+        margin: auto;
     }
 
     .footer {

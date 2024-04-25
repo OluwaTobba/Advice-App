@@ -207,6 +207,8 @@ details[open] summary {
 details p {
     font-family: "Platypi", serif;
     font-weight: 400;
+    font-optical-sizing: auto;
+    font-size: 17.5px;
     padding: 9px;
     margin: 0;
     text-align: center;

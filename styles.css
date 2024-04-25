@@ -235,7 +235,7 @@ details p:hover {
 .modal-content {
     background-color: var(--modal-bg-color);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 25px;
     text-align: center;
     position: relative;
 }

@@ -286,8 +286,6 @@ details p:hover {
 
 
 
-
-
 /* Footer Section */
 .footer {
     color: var(--primary-color-dark);
@@ -364,6 +362,3 @@ details p:hover {
         margin: 0 auto;
     }
 }
-
-
-

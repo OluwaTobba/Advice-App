@@ -1,4 +1,127 @@
 const advices = [
+    // Wisdom and Guidance
+    {
+        content: "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+        person: ""
+    },
+    {
+        content: "Commit to the Lord whatever you do, and he will establish your plans.",
+        person: ""
+    },
+    {
+        content: "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.",
+        person: ""
+    },
+    {
+        content: "The way of fools seems right to them, but the wise listen to advice.",
+        person: ""
+    },
+    {
+        content: "Your word is a lamp for my feet, a light on my path.",
+        person: ""
+    },
+    {
+        content: "Listen to advice and accept discipline, and at the end you will be counted among the wise.",
+        person: ""
+    },
+    {
+        content: "Start children off on the way they should go, and even when they are old they will not turn from it.",
+        person: ""
+    },
+    {
+        content: "Above all else, guard your heart, for everything you do flows from it.",
+        person: ""
+    },
+    {
+        content: "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.",
+        person: ""
+    },
+    {
+        content: "For lack of guidance a nation falls, but victory is won through many advisers.",
+        person: ""
+    },
+    // Love and Compassion
+    {
+        content: "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.",
+        person: ""
+    },
+    {
+        content: "A new command I give you: Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another.",
+        person: ""
+    },
+    {
+        content: "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+        person: ""
+    },
+    {
+        content: "Be devoted to one another in love. Honor one another above yourselves.",
+        person: ""
+    },
+    {
+        content: "Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness and patience. Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you. And over all these virtues put on love, which binds them all together in perfect unity.",
+        person: ""
+    },
+    {
+        content: "Do to others as you would have them do to you.",
+        person: ""
+    },
+    {
+        content: "For the entire law is fulfilled in keeping this one command: 'Love your neighbor as yourself.'",
+        person: ""
+    },
+    {
+        content: "Dear friends, let us love one another, for love comes from God. Everyone who loves has been born of God and knows God.",
+        person: ""
+    },
+    {
+        content: "Jesus replied: 'Love the Lord your God with all your heart and with all your soul and with all your mind.' This is the first and greatest commandment. And the second is like it: 'Love your neighbor as yourself.'",
+        person: ""
+    },
+    {
+        content: "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.",
+        person: ""
+    },
+    // Faith and Trust
+    {
+        content: "Now faith is confidence in what we hope for and assurance about what we do not see.",
+        person: ""
+    },
+    {
+        content: "So faith comes from hearing, and hearing through the word of Christ.",
+        person: ""
+    },
+    {
+        content: "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+        person: ""
+    },
+    {
+        content: "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
+        person: ""
+    },
+    {
+        content: "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+        person: ""
+    },
+    {
+        content: "Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth.",
+        person: ""
+    },
+    {
+        content: "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+        person: ""
+    },
+    {
+        content: "For we live by faith, not by sight.",
+        person: ""
+    },
+    {
+        content: "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+        person: ""
+    },
+    {
+        content: "Trust in the Lord with all your heart and lean not on your own understanding.",
+        person: ""
+    },
     // Personal Development
     {
         content: "Invest in continuous learning and personal growth.",
@@ -407,6 +530,47 @@ const advices = [
     },
     {
         content: "Invest in your own leadership development through training and mentorship.",
+        person: ""
+    },
+    // Patience and Perseverance
+    {
+        content: "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life that the Lord has promised to those who love him.",
+        person: ""
+    },
+    {
+        content: "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.",
+        person: ""
+    },
+    {
+        content: "Not only so, but we also glory in our sufferings, because we know that suffering produces perseverance; perseverance, character; and character, hope.",
+        person: ""
+    },
+    {
+        content: "You need to persevere so that when you have done the will of God, you will receive what he has promised.",
+        person: ""
+    },
+    {
+        content: "I have fought the good fight, I have finished the race, I have kept the faith.",
+        person: ""
+    },
+    {
+        content: "Wait for the Lord; be strong and take heart and wait for the Lord.",
+        person: ""
+    },
+    {
+        content: "Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us.",
+        person: ""
+    },
+    {
+        content: "Be joyful in hope, patient in affliction, faithful in prayer.",
+        person: ""
+    },
+    {
+        content: "As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy.",
+        person: ""
+    },
+    {
+        content: "The end of a matter is better than its beginning, and patience is better than pride.",
         person: ""
     },
     // Learning and Education
@@ -819,7 +983,47 @@ const advices = [
         content: "Use emotional intelligence to make better decisions and achieve personal and professional success.",
         person: ""
     },
-
+    // Humility and Service
+    {
+        content: "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others.",
+        person: ""
+    },
+    {
+        content: "For those who exalt themselves will be humbled, and those who humble themselves will be exalted.",
+        person: ""
+    },
+    {
+        content: "Humble yourselves before the Lord, and he will lift you up.",
+        person: ""
+    },
+    {
+        content: "All of you, clothe yourselves with humility toward one another, because, 'God opposes the proud but shows favor to the humble.' Humble yourselves, therefore, under God's mighty hand, that he may lift you up in due time.",
+        person: ""
+    },
+    {
+        content: "For all those who exalt themselves will be humbled, and those who humble themselves will be exalted.",
+        person: ""
+    },
+    {
+        content: "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.",
+        person: ""
+    },
+    {
+        content: "Humility is the fear of the Lord; its wages are riches and honor and life.",
+        person: ""
+    },
+    {
+        content: "Therefore, as God's chosen people, holy and dearly loved, clothe yourselves with compassion, kindness, humility, gentleness, and patience.",
+        person: ""
+    },
+    {
+        content: "In your relationships with one another, have the same mindset as Christ Jesus: Who, being in very nature God, did not consider equality with God something to be used to his own advantage; rather, he made himself nothing by taking the very nature of a servant, being made in human likeness. And being found in appearance as a man, he humbled himself by becoming obedient to death— even death on a cross!",
+        person: ""
+    },
+    {
+        content: "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but rather think of yourself with sober judgment, in accordance with the faith God has distributed to each of you.",
+        person: ""
+    },
 
 
     // Add more advices

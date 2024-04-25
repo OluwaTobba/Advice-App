@@ -122,6 +122,46 @@ const advices = [
         content: "Trust in the Lord with all your heart and lean not on your own understanding.",
         person: ""
     },
+    {
+        content: "Commit your way to the Lord; trust in him and he will do this.",
+        person: ""
+    },
+    {
+        content: "In all your ways submit to him, and he will make your paths straight.",
+        person: ""
+    },
+    {
+        content: "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.",
+        person: ""
+    },
+    {
+        content: "And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him.",
+        person: ""
+    },
+    {
+        content: "Cast all your anxiety on him because he cares for you.",
+        person: ""
+    },
+    {
+        content: "But blessed is the one who trusts in the Lord, whose confidence is in him.",
+        person: ""
+    },
+    {
+        content: "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
+        person: ""
+    },
+    {
+        content: "Jesus Christ is the same yesterday and today and forever.",
+        person: ""
+    },
+    {
+        content: "Be strong and take heart, all you who hope in the Lord.",
+        person: ""
+    },
+    {
+        content: "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
+        person: ""
+    },
     // Personal Development
     {
         content: "Invest in continuous learning and personal growth.",
@@ -571,6 +611,46 @@ const advices = [
     },
     {
         content: "The end of a matter is better than its beginning, and patience is better than pride.",
+        person: ""
+    },
+    {
+        content: "For everything that was written in the past was written to teach us, so that through the endurance taught in the Scriptures and the encouragement they provide we might have hope.",
+        person: ""
+    },
+    {
+        content: "No discipline seems pleasant at the time, but painful. Later on, however, it produces a harvest of righteousness and peace for those who have been trained by it.",
+        person: ""
+    },
+    {
+        content: "Brothers and sisters, as an example of patience in the face of suffering, take the prophets who spoke in the name of the Lord. As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy.",
+        person: ""
+    },
+    {
+        content: "Be on your guard; stand firm in the faith; be courageous; be strong.",
+        person: ""
+    },
+    {
+        content: "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Against such things there is no law.",
+        person: ""
+    },
+    {
+        content: "Since you have kept my command to endure patiently, I will also keep you from the hour of trial that is going to come on the whole world to test the inhabitants of the earth.",
+        person: ""
+    },
+    {
+        content: "And as for you, brothers and sisters, never tire of doing what is good.",
+        person: ""
+    },
+    {
+        content: "And so after waiting patiently, Abraham received what was promised.",
+        person: ""
+    },
+    {
+        content: "But if we hope for what we do not yet have, we wait for it patiently.",
+        person: ""
+    },
+    {
+        content: "Being strengthened with all power according to his glorious might so that you may have great endurance and patience.",
         person: ""
     },
     // Learning and Education
@@ -1024,7 +1104,46 @@ const advices = [
         content: "For by the grace given me I say to every one of you: Do not think of yourself more highly than you ought, but rather think of yourself with sober judgment, in accordance with the faith God has distributed to each of you.",
         person: ""
     },
-
+    {
+        content: "The greatest among you will be your servant.",
+        person: ""
+    },
+    {
+        content: "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves.",
+        person: ""
+    },
+    {
+        content: "Bear with each other and forgive one another if any of you has a grievance against someone. Forgive as the Lord forgave you.",
+        person: ""
+    },
+    {
+        content: "Then he said to them, 'Whoever welcomes this little child in my name welcomes me; and whoever welcomes me welcomes the one who sent me. For it is the one who is least among you all who is the greatest.'",
+        person: ""
+    },
+    {
+        content: "You, my brothers and sisters, were called to be free. But do not use your freedom to indulge the flesh; rather, serve one another humbly in love.",
+        person: ""
+    },
+    {
+        content: "Live in harmony with one another. Do not be proud, but be willing to associate with people of low position. Do not be conceited.",
+        person: ""
+    },
+    {
+        content: "Be completely humble and gentle; be patient, bearing with one another in love.",
+        person: ""
+    },
+    {
+        content: "Not looking to your own interests but each of you to the interests of the others.",
+        person: ""
+    },
+    {
+        content: "But he gives us more grace. That is why Scripture says: 'God opposes the proud but shows favor to the humble.'",
+        person: ""
+    },
+    {
+        content: "When pride comes, then comes disgrace, but with humility comes wisdom.",
+        person: ""
+    },
 
     // Add more advices
 ];

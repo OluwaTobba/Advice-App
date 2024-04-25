@@ -290,7 +290,7 @@ details p:hover {
     padding: 20px 0;
     text-align: center;
     position: relative;
-    /* margin-top: 20px; */
+    margin-top: 15px;
     width: 100%;
     bottom: 0;
 }

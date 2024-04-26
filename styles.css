@@ -385,4 +385,9 @@ details p:hover {
         transform: translateY(0) !important;
         margin: 0 auto;
     }
+
+    .advice-section {
+        max-width: 90%;
+        margin: auto;
+    }
 }

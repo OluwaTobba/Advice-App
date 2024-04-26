@@ -40,6 +40,46 @@ const advices = [
         content: "For lack of guidance a nation falls, but victory is won through many advisers.",
         person: ""
     },
+    {
+        content: "The beginning of wisdom is this: Get wisdom. Though it cost all you have, get understanding.",
+        person: ""
+    },
+    {
+        content: "And though you start with little, you will end with much.",
+        person: ""
+    },
+    {
+        content: "For the Lord gives wisdom; from his mouth come knowledge and understanding.",
+        person: ""
+    },
+    {
+        content: "Blessed are those who find wisdom, those who gain understanding.",
+        person: ""
+    },
+    {
+        content: "For wisdom is more precious than rubies, and nothing you desire can compare with her.",
+        person: ""
+    },
+    {
+        content: "How much better to get wisdom than gold, to get insight rather than silver!",
+        person: ""
+    },
+    {
+        content: "Let the message of Christ dwell among you richly as you teach and admonish one another with all wisdom through psalms, hymns, and songs from the Spirit, singing to God with gratitude in your hearts.",
+        person: ""
+    },
+    {
+        content: "Listen to advice and accept discipline, and at the end you will be counted among the wise.",
+        person: ""
+    },
+    {
+        content: "Know also that wisdom is like honey for you: If you find it, there is a future hope for you, and your hope will not be cut off.",
+        person: ""
+    },
+    {
+        content: "But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere.",
+        person: ""
+    },
     // Love and Compassion
     {
         content: "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.",
@@ -79,6 +119,46 @@ const advices = [
     },
     {
         content: "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.",
+        person: ""
+    },
+    {
+        content: "You have heard that it was said, ‘Love your neighbor and hate your enemy.’ But I tell you, love your enemies and pray for those who persecute you.",
+        person: ""
+    },
+    {
+        content: "Love must be sincere. Hate what is evil; cling to what is good.",
+        person: ""
+    },
+    {
+        content: "Do everything in love.",
+        person: ""
+    },
+    {
+        content: "And walk in the way of love, just as Christ loved us and gave himself up for us as a fragrant offering and sacrifice to God.",
+        person: ""
+    },
+    {
+        content: "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Against such things there is no law.",
+        person: ""
+    },
+    {
+        content: "Dear children, let us not love with words or speech but with actions and in truth.",
+        person: ""
+    },
+    {
+        content: "Whoever does not love does not know God, because God is love.",
+        person: ""
+    },
+    {
+        content: "We love because he first loved us.",
+        person: ""
+    },
+    {
+        content: "Above all, love each other deeply, because love covers over a multitude of sins.",
+        person: ""
+    },
+    {
+        content: "Finally, all of you, be like-minded, be sympathetic, love one another, be compassionate and humble.",
         person: ""
     },
     // Faith and Trust
@@ -203,6 +283,47 @@ const advices = [
         content: "Take ownership of your actions and choices.",
         person: ""
     },
+    {
+        content: "Embrace vulnerability as a strength rather than a weakness.",
+        person: ""
+    },
+    {
+        content: "Cultivate a growth mindset and believe in your ability to learn and improve.",
+        person: ""
+    },
+    {
+        content: "Seek feedback from others to gain insights into areas for growth.",
+        person: ""
+    },
+    {
+        content: "Practice self-compassion and treat yourself with kindness and understanding.",
+        person: ""
+    },
+    {
+        content: "Set boundaries to protect your time, energy, and well-being.",
+        person: ""
+    },
+    {
+        content: "Embrace challenges as opportunities for growth and development.",
+        person: ""
+    },
+    {
+        content: "Explore new hobbies and interests to expand your horizons.",
+        person: ""
+    },
+    {
+        content: "Invest in building emotional intelligence to better understand yourself and others.",
+        person: ""
+    },
+    {
+        content: "Develop resilience by bouncing back from setbacks with determination.",
+        person: ""
+    },
+    {
+        content: "Foster a sense of purpose and meaning in your life by aligning your actions with your values.",
+        person: ""
+    },
+    
     // career and success
     {
         content: "Pursue work that aligns with your passions and values.",

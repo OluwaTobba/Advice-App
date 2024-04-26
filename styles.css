@@ -171,6 +171,11 @@ nav{
 
 
 /**************** Advice Page *********************/
+.advice-header {
+    text-align: center;
+    color: var(--primary-color-dark);
+}
+
 .advice-section {
     max-width: var(--max-width);
     margin: auto;
@@ -267,7 +272,7 @@ details p:hover {
     padding: 6px 12px;
     margin-top: 15px;
     margin-bottom: 10px;
-    border-radius: 13px;
+    border-radius: 7px;
     background-color: var(--close-btn);
     color: var(--primary-color-dark);
 }
@@ -310,14 +315,27 @@ details p:hover {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
     .link a {
         display: none;
     }
 
+    nav {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .nav_logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    } */
+
     .nav_logo img {
-        margin-left: 100px;
-        width: 8rem;
+        /* margin-left: 100px; */
+        width: 9rem;
+        margin: 0 auto;
     }
 
     .btn-container {

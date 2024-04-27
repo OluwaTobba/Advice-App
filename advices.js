@@ -1188,6 +1188,47 @@ const advices = [
         content: "Reflect on your learning progress and celebrate your achievements.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Decision Making
     {
         content: "Gather relevant information before making decisions.",
@@ -1229,6 +1270,47 @@ const advices = [
         content: "Be flexible and willing to adjust your decisions based on new information.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Resilience and Adaptability
     {
         content: "Accept that change is a natural part of life and embrace it.",
@@ -1270,6 +1352,47 @@ const advices = [
         content: "Celebrate your resilience and achievements along the way.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Mindfulness and Meditation
     {
         content: "Practice mindfulness by staying present in the moment.",
@@ -1311,6 +1434,47 @@ const advices = [
         content: "Seek out mindfulness resources, such as books, apps, or classes, for support.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Environmental Sustainability
     {
         content: "Reduce your carbon footprint by conserving energy and resources.",
@@ -1352,6 +1516,47 @@ const advices = [
         content: "Lead by example and inspire others to adopt sustainable practices.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Creativity and Play
     {
         content: "Make time for creative activities that bring you joy and fulfillment.",
@@ -1393,6 +1598,47 @@ const advices = [
         content: "Celebrate your unique talents and creativity, no matter how small.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Gratitude and Positivity
     {
         content: "Start each day with a grateful heart and focus on the positives in your life.",
@@ -1432,6 +1678,46 @@ const advices = [
     },
     {
         content: "Choose to see the beauty and goodness in the world around you.",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
         person: ""
     },
     // Empathy and Compassion
@@ -1475,6 +1761,47 @@ const advices = [
         content: "Cultivate empathy as a core value in your relationships and interactions.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Personal Boundaries
     {
         content: "Identify your personal values and boundaries.",
@@ -1516,6 +1843,47 @@ const advices = [
         content: "Seek professional help if you struggle to establish or maintain healthy boundaries.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+
     // Emotional Intelligence
     {
         content: "Develop self-awareness by recognizing and understanding your emotions.",
@@ -1557,6 +1925,47 @@ const advices = [
         content: "Use emotional intelligence to make better decisions and achieve personal and professional success.",
         person: ""
     },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    {
+        content: "",
+        person: ""
+    },
+    
     // Humility and Service
     {
         content: "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others.",

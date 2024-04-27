@@ -80,6 +80,7 @@ const advices = [
         content: "But the wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere.",
         person: ""
     },
+
     // Love and Compassion
     {
         content: "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.",
@@ -122,7 +123,7 @@ const advices = [
         person: ""
     },
     {
-        content: "You have heard that it was said, ‘Love your neighbor and hate your enemy.’ But I tell you, love your enemies and pray for those who persecute you.",
+        content: "You have heard that it was said, 'Love your neighbor and hate your enemy.' But I tell you, love your enemies and pray for those who persecute you.",
         person: ""
     },
     {
@@ -161,6 +162,7 @@ const advices = [
         content: "Finally, all of you, be like-minded, be sympathetic, love one another, be compassionate and humble.",
         person: ""
     },
+
     // Faith and Trust
     {
         content: "Now faith is confidence in what we hope for and assurance about what we do not see.",
@@ -242,6 +244,7 @@ const advices = [
         content: "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
         person: ""
     },
+
     // Personal Development
     {
         content: "Invest in continuous learning and personal growth.",
@@ -323,7 +326,7 @@ const advices = [
         content: "Foster a sense of purpose and meaning in your life by aligning your actions with your values.",
         person: ""
     },
-    
+
     // career and success
     {
         content: "Pursue work that aligns with your passions and values.",
@@ -365,13 +368,54 @@ const advices = [
         content: "Celebrate your achievements and milestones along the way.",
         person: ""
     },
+    {
+        content: "Cultivate a strong professional network by attending industry events and networking opportunities.",
+        person: ""
+    },
+    {
+        content: "Seek out mentors and role models who can provide guidance and support in your career journey.",
+        person: ""
+    },
+    {
+        content: "Continuously seek opportunities for learning and skill development to stay competitive in your field.",
+        person: ""
+    },
+    {
+        content: "Take enough risks in your career to pursue growth and advancement opportunities.",
+        person: ""
+    },
+    {
+        content: "Practice effective time management to prioritize tasks and maximize productivity.",
+        person: ""
+    },
+    {
+        content: "Advocate for yourself and communicate your career goals and aspirations to your employer or colleagues.",
+        person: ""
+    },
+    {
+        content: "Mark your successes and milestones along the way to maintain motivation and momentum.",
+        person: ""
+    },
+    {
+        content: "Stay adaptable and open to change in your career path, embracing new opportunities for growth.",
+        person: ""
+    },
+    {
+        content: "Build a personal brand that reflects your skills, values, and expertise in your industry.",
+        person: ""
+    },
+    {
+        content: "Give back to your community or industry through volunteering or mentorship, contributing to your professional legacy.",
+        person: ""
+    },
+
     // Relationships
     {
         content: "Practice active listening to understand others deeply.",
         person: ""
     },
     {
-        content: "Communicate openly and honestly in your relationships.",
+        content: "Communicate openly and honestly about your needs, desires, and concerns, building trust and intimacy in your relationships.",
         person: ""
     },
     {
@@ -406,6 +450,47 @@ const advices = [
         content: "Be patient and understanding in your relationships.",
         person: ""
     },
+    {
+        content: "Practice forgiveness and let go of grudges, focusing on moving forward and rebuilding trust.",
+        person: ""
+    },
+    {
+        content: "Show appreciation for the little things your partner does, expressing gratitude for their thoughtfulness.",
+        person: ""
+    },
+    {
+        content: "Plan surprise gestures or outings to keep the romance alive and add excitement to your relationship.",
+        person: ""
+    },
+    {
+        content: "Communicate your love language to your partner and make efforts to meet each other's emotional needs.",
+        person: ""
+    },
+    {
+        content: "Practice humility and apologize when you're wrong, showing vulnerability and a willingness to make amends.",
+        person: ""
+    },
+    {
+        content: "Support each other's personal growth and pursuits, cheering each other on in your individual endeavors.",
+        person: ""
+    },
+    {
+        content: "Cultivate shared hobbies or interests to bond over and create lasting memories together.",
+        person: ""
+    },
+    {
+        content: "Create rituals or traditions that strengthen your connection and provide stability and comfort.",
+        person: ""
+    },
+    {
+        content: "Seek couples counseling or therapy if needed to work through challenges and strengthen your relationship.",
+        person: ""
+    },
+    {
+        content: "Set aside time for regular check-ins to discuss your relationship, address concerns, and celebrate milestones.",
+        person: ""
+    },
+
     // Financial well-being
     {
         content: "Create a budget and stick to it to manage your finances effectively.",
@@ -432,7 +517,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Review your financial goals regularly and adjust as needed.",
+        content: "Review your financial goals regularly and adjust as needed to reflect changes in your circumstances or priorities.",
         person: ""
     },
     {
@@ -440,13 +525,54 @@ const advices = [
         person: ""
     },
     {
-        content: "Practice delayed gratification and avoid impulse spending.",
+        content: "Practice delayed gratification by saving up for major purchases rather than relying on credit or loans.",
         person: ""
     },
     {
         content: "Plan for retirement early and consistently contribute to your savings.",
         person: ""
     },
+    {
+        content: "Automate your savings by setting up automatic transfers to your savings or investment accounts.",
+        person: ""
+    },
+    {
+        content: "Educate yourself about personal finance principles and strategies through books, courses, or reputable online resources.",
+        person: ""
+    },
+    {
+        content: "Invest in experiences rather than material possessions, focusing on creating lasting memories and enriching your life.",
+        person: ""
+    },
+    {
+        content: "Avoid comparing yourself to others and focus on your own financial journey and progress.",
+        person: ""
+    },
+    {
+        content: "Seek out opportunities for additional income through side hustles, freelance work, or passive income streams.",
+        person: ""
+    },
+    {
+        content: "Set aside funds for future expenses such as travel, education, or home improvements in a separate savings account.",
+        person: ""
+    },
+    {
+        content: "Practice mindful spending by pausing before making purchases and considering whether they align with your values and goals.",
+        person: ""
+    },
+    {
+        content: "Regularly review your subscriptions and recurring expenses, canceling any services or memberships that you no longer need or use.",
+        person: ""
+    },
+    {
+        content: "Be mindful of lifestyle inflation and avoid increasing your spending proportionally with increases in income.",
+        person: ""
+    },
+    {
+        content: "Give back to your community through charitable donations or volunteer work, fostering a sense of abundance and generosity.",
+        person: ""
+    },
+
     // Health and Wellness
     {
         content: "Prioritize regular exercise for physical and mental health.",
@@ -457,7 +583,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Stay hydrated by drinking plenty of water throughout the day.",
+        content: "Stay hydrated by drinking plenty of water throughout the day to support overall health and vitality.",
         person: ""
     },
     {
@@ -469,7 +595,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Schedule regular health check-ups and screenings.",
+        content: "Schedule regular health check-ups and screenings to monitor your physical health and catch any issues early.",
         person: ""
     },
     {
@@ -477,7 +603,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Find activities that bring you joy and relaxation.",
+        content: "Practice self-care activities that bring you joy and relaxation, such as reading, gardening, or taking a bath.",
         person: ""
     },
     {
@@ -488,6 +614,47 @@ const advices = [
         content: "Seek professional help when dealing with mental health challenges.",
         person: ""
     },
+    {
+        content: "Practice mindful eating by paying attention to hunger and fullness cues and savoring each bite.",
+        person: ""
+    },
+    {
+        content: "Incorporate regular physical activity into your routine to improve cardiovascular health and mood.",
+        person: ""
+    },
+    {
+        content: "Prioritize quality sleep by establishing a consistent bedtime routine and creating a conducive sleep environment.",
+        person: ""
+    },
+    {
+        content: "Cultivate supportive relationships and social connections to boost mental and emotional well-being.",
+        person: ""
+    },
+    {
+        content: "Limit screen time and exposure to blue light before bedtime to improve sleep quality.",
+        person: ""
+    },
+    {
+        content: "Listen to your body's signals and prioritize rest and recovery when needed to prevent burnout and exhaustion.",
+        person: ""
+    },
+    {
+        content: "Practice mindfulness meditation to cultivate present moment awareness and reduce stress.",
+        person: ""
+    },
+    {
+        content: "Experiment with different forms of movement and exercise to find activities that you enjoy and look forward to.",
+        person: ""
+    },
+    {
+        content: "Foster social connections by joining clubs, groups, or communities with shared interests and values.",
+        person: ""
+    },
+    {
+        content: "Practice self-compassion and kindness towards yourself, recognizing and honoring your own needs and limitations.",
+        person: ""
+    },
+
     // Personal Productivity
     {
         content: "Prioritize tasks based on importance and urgency.",
@@ -510,7 +677,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Delegate tasks when possible to free up time for high-priority activities.",
+        content: "Delegate tasks that can be outsourced or completed by others when possible to free up time for high-priority activities.",
         person: ""
     },
     {
@@ -518,20 +685,61 @@ const advices = [
         person: ""
     },
     {
-        content: "Use technology wisely to streamline processes and save time.",
+        content: "Use technology tools such as task management apps or project management software to stay organized and track progress.",
         person: ""
     },
     {
-        content: "Batch similar tasks together to improve productivity.",
+        content: "Batch similar tasks together to minimize context switching and improve productivity.",
         person: ""
     },
     {
-        content: "Review and reflect on your productivity habits regularly for improvement.",
+        content: "Review and reflect on your productivity habits regularly to identify areas for improvement and optimization.",
         person: ""
     },
+    {
+        content: "Practice the Pomodoro Technique by breaking work into intervals with short breaks in between to maintain focus and productivity.",
+        person: ""
+    },
+    {
+        content: "Create a designated workspace free from distractions to optimize concentration and efficiency.",
+        person: ""
+    },
+    {
+        content: "Use the Eisenhower Matrix to prioritize tasks based on urgency and importance, focusing on high-impact activities first.",
+        person: ""
+    },
+    {
+        content: "Set specific, measurable goals for each day, week, and month to stay motivated and accountable.",
+        person: ""
+    },
+    {
+        content: "Say no to non-essential commitments or tasks that don't align with your priorities to protect your time and energy.",
+        person: ""
+    },
+    {
+        content: "Practice self-discipline and time management techniques to avoid procrastination and maximize productivity throughout the day.",
+        person: ""
+    },
+    {
+        content: "Prioritize your most important tasks (MITs) for the day and tackle them first to ensure progress towards your goals.",
+        person: ""
+    },
+    {
+        content: "Limit multitasking and focus on one task at a time to maximize concentration and productivity.",
+        person: ""
+    },
+    {
+        content: "Set deadlines for your tasks and hold yourself accountable to them, using timers or alarms to stay on track.",
+        person: ""
+    },
+    {
+        content: "Reflect on your accomplishments and areas for improvement at the end of each day, adjusting your approach as needed to optimize productivity.",
+        person: ""
+    },
+
     // Communication Skills
     {
-        content: "Practice active listening to understand others' perspectives.",
+        content: "Use active listening techniques such as paraphrasing and summarizing to ensure mutual understanding in conversations.",
         person: ""
     },
     {
@@ -539,7 +747,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Use non-verbal cues effectively to convey your message.",
+        content: "Use non-verbal communication cues such as eye contact and body language to enhance your message and convey sincerity.",
         person: ""
     },
     {
@@ -551,11 +759,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Give constructive feedback in a respectful manner.",
+        content: "Provide constructive feedback by focusing on specific behaviors or actions and offering suggestions for improvement.",
         person: ""
     },
     {
-        content: "Use 'I' statements to express thoughts and feelings without blame.",
+        content: "Use 'I' statements to express your thoughts, feelings, and needs without blaming or accusing others.",
         person: ""
     },
     {
@@ -570,13 +778,54 @@ const advices = [
         content: "Be mindful of your tone and body language when communicating.",
         person: ""
     },
+    {
+        content: "Practice assertiveness by expressing your needs, opinions, and boundaries clearly and respectfully.",
+        person: ""
+    },
+    {
+        content: "Tailor your communication style to the preferences and needs of your audience to maximize impact and receptivity.",
+        person: ""
+    },
+    {
+        content: "Practice empathy by validating others' emotions and perspectives, even if you don't agree with them.",
+        person: ""
+    },
+    {
+        content: "Practice effective conflict resolution techniques such as active listening, seeking common ground, and finding win-win solutions.",
+        person: ""
+    },
+    {
+        content: "Use storytelling as a powerful communication tool to engage your audience and convey complex ideas in a compelling way.",
+        person: ""
+    },
+    {
+        content: "Seek opportunities for public speaking or presentation to hone your communication skills and build confidence in expressing yourself.",
+        person: ""
+    },
+    {
+        content: "Practice reflective listening by paraphrasing and summarizing the speaker's message to ensure understanding.",
+        person: ""
+    },
+    {
+        content: "Practice tact and diplomacy in sensitive or difficult conversations, choosing words carefully to minimize conflict.",
+        person: ""
+    },
+    {
+        content: "Use positive body language such as eye contact, nodding, and open posture to convey interest and engagement.",
+        person: ""
+    },
+    {
+        content: "Cultivate a sense of curiosity and genuine interest in others by asking open-ended questions and actively listening to their responses.",
+        person: ""
+    },
+
     // Creativity and Innovations
     {
         content: "Embrace curiosity and stay open to new ideas.",
         person: ""
     },
     {
-        content: "Experiment with different approaches to problem-solving.",
+        content: "Foster a culture of experimentation and risk-taking in your personal and professional pursuits to spark innovation.",
         person: ""
     },
     {
@@ -596,7 +845,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Collaborate with others to generate innovative solutions.",
+        content: "Collaborate with others on creative projects to leverage diverse skills and perspectives and generate innovative solutions.",
         person: ""
     },
     {
@@ -604,36 +853,77 @@ const advices = [
         person: ""
     },
     {
-        content: "Set aside dedicated time for brainstorming and idea generation.",
+        content: "Set aside dedicated time for creative exploration and brainstorming to cultivate new ideas and insights.",
         person: ""
     },
     {
-        content: "Celebrate creativity and recognize innovative contributions.",
+        content: "Practice divergent thinking by exploring multiple perspectives and brainstorming creative solutions to challenges.",
         person: ""
     },
+    {
+        content: "Embrace failure as a natural part of the creative process and an opportunity for learning and growth.",
+        person: ""
+    },
+    {
+        content: "Surround yourself with diverse perspectives and experiences to inspire creativity and innovation.",
+        person: ""
+    },
+    {
+        content: "Break out of routine and comfort zones by seeking out novel experiences and perspectives to stimulate creativity.",
+        person: ""
+    },
+    {
+        content: "Create a conducive environment for creativity by minimizing distractions and fostering a sense of play and exploration.",
+        person: ""
+    },
+    {
+        content: "Practice mindfulness techniques such as meditation or deep breathing to quiet the mind and enhance creativity.",
+        person: ""
+    },
+    {
+        content: "Keep a journal or sketchbook to capture ideas, thoughts, and inspirations as they arise.",
+        person: ""
+    },
+    {
+        content: "Attend workshops, seminars, or conferences related to your field or interests to expand your knowledge and network.",
+        person: ""
+    },
+    {
+        content: "Create a vision board or collage to visualize your goals and aspirations, inspiring creative thinking and action.",
+        person: ""
+    },
+    {
+        content: "Engage in nature walks or outdoor activities to stimulate creativity and inspiration.",
+        person: ""
+    },
+    {
+        content: "Celebrate and showcase creativity and innovation within your community or organization to inspire others and foster a culture of creativity.",
+        person: ""
+    },
+
     // Time Management
     {
         content: "Set clear priorities and focus on high-value activities.",
         person: ""
     },
     {
-        content: "Use time-blocking to allocate specific time slots for tasks.",
+        content: "Use time-blocking techniques to allocate specific time slots for different tasks and activities throughout the day.",
         person: ""
     },
     {
-        content: "Limit multitasking and concentrate on one task at a time.",
+        content: "Minimize multitasking and focus on one task at a time to maximize concentration and productivity.",
         person: ""
     },
     {
-        content: "Set realistic deadlines and stick to them.",
+        content: "Set realistic deadlines for tasks and projects, breaking them down into smaller, manageable chunks to avoid overwhelm.",
         person: ""
     },
     {
-        content: "Learn to say no to non-essential commitments.",
+        content: "Practice saying no to non-essential commitments or requests that don't align with your priorities to protect your time.",
         person: ""
     },
     {
-        content: "Use technology tools such as calendars and task managers to stay organized.",
+        content: "Use technology tools such as calendar apps or task management software to organize and track your schedule and tasks.",
         person: ""
     },
     {
@@ -652,13 +942,54 @@ const advices = [
         content: "Delegate tasks when appropriate to free up your time for more important activities.",
         person: ""
     },
-    // Leadership and Influence
     {
-        content: "Lead by example and demonstrate integrity in your actions.",
+        content: "Implement the Two-Minute Rule: if a task takes less than two minutes to complete, do it immediately to prevent procrastination.",
         person: ""
     },
     {
-        content: "Communicate a compelling vision to inspire others.",
+        content: "Use a priority matrix to categorize tasks based on urgency and importance, focusing on high-priority items first.",
+        person: ""
+    },
+    {
+        content: "Schedule regular breaks throughout the day to rest and recharge, preventing burnout and maintaining energy levels.",
+        person: ""
+    },
+    {
+        content: "Review and reflect on your time management habits regularly to identify areas for improvement and optimization.",
+        person: ""
+    },
+    {
+        content: "Develop a morning routine to set a positive tone for the day and maximize productivity and focus from the start.",
+        person: ""
+    },
+    {
+        content: "Practice self-discipline and consistency in your daily routines and habits, setting yourself up for success and achievement.",
+        person: ""
+    },
+    {
+        content: "Batch similar tasks together to minimize transition time and improve efficiency.",
+        person: ""
+    },
+    {
+        content: "Practice the Pomodoro Technique by working in short, focused bursts followed by brief breaks to maintain concentration and avoid burnout.",
+        person: ""
+    },
+    {
+        content: "Prioritize tasks using the Eisenhower Matrix, distinguishing between urgent and important activities to maximize productivity.",
+        person: ""
+    },
+    {
+        content: "Use productivity tools and apps to track your time and tasks, helping you stay organized and focused.",
+        person: ""
+    },
+
+    // Leadership and Influence
+    {
+        content: "Lead by example, demonstrating integrity, empathy, and accountability in your actions and decisions.",
+        person: ""
+    },
+    {
+        content: "Communicate a compelling vision and mission that inspires and motivates others to action.",
         person: ""
     },
     {
@@ -674,7 +1005,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Solicit feedback and act on it to continuously improve.",
+        content: "Provide constructive feedback and recognition to acknowledge contributions and foster growth and development.",
         person: ""
     },
     {
@@ -693,6 +1024,47 @@ const advices = [
         content: "Invest in your own leadership development through training and mentorship.",
         person: ""
     },
+    {
+        content: "Develop strong interpersonal skills to build trust, rapport, and collaboration with team members and stakeholders.",
+        person: ""
+    },
+    {
+        content: "Empower others by delegating authority and responsibility, trusting them to make decisions and take ownership of their work.",
+        person: ""
+    },
+    {
+        content: "Foster a culture of continuous learning and improvement, encouraging experimentation, innovation, and risk-taking.",
+        person: ""
+    },
+    {
+        content: "Lead with empathy and emotional intelligence, understanding and valuing the perspectives and experiences of others.",
+        person: ""
+    },
+    {
+        content: "Navigate change and uncertainty with confidence and adaptability, guiding your team through challenges and transitions.",
+        person: ""
+    },
+    {
+        content: "Cultivate resilience and perseverance in yourself and others, modeling resilience in the face of adversity.",
+        person: ""
+    },
+    {
+        content: "Mentor and coach others to unlock their full potential, providing guidance, support, and opportunities for growth and development.",
+        person: ""
+    },
+    {
+        content: "Foster a sense of belonging and inclusion within your team, celebrating diversity and respecting individual differences.",
+        person: ""
+    },
+    {
+        content: "Develop strong relationships with your team members based on trust, respect, and open communication.",
+        person: ""
+    },
+    {
+        content: "Encourage autonomy and independence among your team members, empowering them to make decisions and take ownership of their work.",
+        person: ""
+    },
+
     // Patience and Perseverance
     {
         content: "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life that the Lord has promised to those who love him.",
@@ -727,7 +1099,7 @@ const advices = [
         person: ""
     },
     {
-        content: "As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy.",
+        content: "As you know, we count as blessed those who have persevered. You have heard of Job's perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy.",
         person: ""
     },
     {
@@ -743,7 +1115,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Brothers and sisters, as an example of patience in the face of suffering, take the prophets who spoke in the name of the Lord. As you know, we count as blessed those who have persevered. You have heard of Job’s perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy.",
+        content: "Brothers and sisters, as an example of patience in the face of suffering, take the prophets who spoke in the name of the Lord. As you know, we count as blessed those who have persevered. You have heard of Job's perseverance and have seen what the Lord finally brought about. The Lord is full of compassion and mercy.",
         person: ""
     },
     {
@@ -774,6 +1146,7 @@ const advices = [
         content: "Being strengthened with all power according to his glorious might so that you may have great endurance and patience.",
         person: ""
     },
+
     // Learning and Education
     {
         content: "Embrace a lifelong learning mindset and seek knowledge in diverse fields.",

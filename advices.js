@@ -1567,7 +1567,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Experiment with different forms of creative expression, such as art, music, or writing.",
+        content: "Experiment with different art forms and mediums, such as painting, drawing, writing, or music, to explore your creative potential.",
         person: ""
     },
     {
@@ -1579,11 +1579,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Collaborate with others on creative projects to spark new ideas.",
+        content: "Collaborate with others on creative projects or brainstorming sessions to generate new ideas and perspectives.",
         person: ""
     },
     {
-        content: "Embrace failure as a natural part of the creative process.",
+        content: "Embrace mistakes and imperfections as part of the creative process, seeing them as opportunities for learning and growth.",
         person: ""
     },
     {
@@ -1595,47 +1595,47 @@ const advices = [
         person: ""
     },
     {
-        content: "Celebrate your unique talents and creativity, no matter how small.",
+        content: "Create a playful and supportive environment for creativity by letting go of self-criticism and perfectionism.",
         person: ""
     },
     {
-        content: "",
+        content: "Embrace curiosity and wonder by exploring new hobbies, interests, and experiences without judgment or expectations.",
         person: ""
     },
     {
-        content: "",
+        content: "Create a dedicated space for creative expression in your home or workspace, filled with materials and inspiration to spark your imagination.",
         person: ""
     },
     {
-        content: "",
+        content: "Spend time in nature to recharge your creative energy and find inspiration in the beauty and diversity of the natural world.",
         person: ""
     },
     {
-        content: "",
+        content: "Play games and engage in playful activities with friends, family, or coworkers to foster connection, laughter, and joy.",
         person: ""
     },
     {
-        content: "",
+        content: "Take breaks throughout your day to daydream, doodle, or engage in imaginative play, refreshing your mind and reigniting your creativity.",
         person: ""
     },
     {
-        content: "",
+        content: "Attend workshops, classes, or events related to your creative interests to learn new skills and techniques and connect with like-minded individuals.",
         person: ""
     },
     {
-        content: "",
+        content: "Share your creations and ideas with others, seeking feedback and inspiration from their perspectives and experiences.",
         person: ""
     },
     {
-        content: "",
+        content: "Create a 'creativity toolkit' filled with art supplies, writing materials, and other resources to spark your imagination.",
         person: ""
     },
     {
-        content: "",
+        content: "Create a 'play jar' filled with fun activities or prompts to inspire spontaneous moments of play and creativity.",
         person: ""
     },
     {
-        content: "",
+        content: "Celebrate your creativity and playfulness by sharing your creations with others, whether through art, storytelling, or performance.",
         person: ""
     },
 

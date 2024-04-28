@@ -1541,19 +1541,19 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Advocate for renewable energy policies and investments in your community or workplace to accelerate the transition to clean energy sources.",
         person: ""
     },
     {
-        content: "",
+        content: "Choose products with minimal packaging or packaging made from recyclable or compostable materials to reduce waste.",
         person: ""
     },
     {
-        content: "",
+        content: "Plant native species in your garden to support local wildlife and pollinators, creating habitat and biodiversity.",
         person: ""
     },
     {
-        content: "",
+        content: "Join or support the Government and initiatives working to protect and restore ecosystems, advocate for policy changes, and raise awareness about environmental issues.",
         person: ""
     },
 
@@ -1783,23 +1783,23 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Practice empathy in your communication by validating others' emotions and experiences, even if you don't agree with their perspective.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-compassion by treating yourself with the same kindness and understanding that you would offer to a friend in need.",
         person: ""
     },
     {
-        content: "",
+        content: "Offer your time and presence to listen to others without judgment, creating a safe space for them to share their thoughts and feelings.",
         person: ""
     },
     {
-        content: "",
+        content: "Educate yourself about mental health and emotional well-being to better understand and support those struggling with mental health challenges.",
         person: ""
     },
     {
-        content: "",
+        content: "Lead by example in modeling empathy and compassion in your interactions and relationships, inspiring others to do the same.",
         person: ""
     },
 

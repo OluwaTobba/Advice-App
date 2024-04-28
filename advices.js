@@ -1189,43 +1189,43 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Engage in reflective practice by regularly reviewing and evaluating your learning experiences and progress.",
         person: ""
     },
     {
-        content: "",
+        content: "Seek out diverse perspectives and viewpoints to broaden your understanding and challenge your assumptions.",
         person: ""
     },
     {
-        content: "",
+        content: "Foster a growth mindset by embracing challenges, persisting in the face of setbacks, and viewing failures as opportunities for learning.",
         person: ""
     },
     {
-        content: "",
+        content: "Leverage technology tools and resources to access a wealth of information and educational opportunities.",
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate curiosity and a thirst for knowledge by asking questions, exploring new topics, and seeking out new experiences.",
         person: ""
     },
     {
-        content: "",
+        content: "Collaborate with others on learning projects and initiatives to leverage collective knowledge and expertise.",
         person: ""
     },
     {
-        content: "",
+        content: "Apply what you've learned in real-world contexts to deepen understanding and reinforce learning.",
         person: ""
     },
     {
-        content: "",
+        content: "Embrace lifelong learning as a continuous journey of growth and development, staying curious and open-minded throughout your life.",
         person: ""
     },
     {
-        content: "",
+        content: "Share your knowledge and expertise with others through teaching, mentoring, or contributing to community learning initiatives.",
         person: ""
     },
     {
-        content: "",
+        content: "Celebrate your learning achievements and milestones along the way, recognizing the progress you've made and the skills you've acquired.",
         person: ""
     },
 
@@ -1239,11 +1239,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Trust your intuition but also rely on logic and reasoning.",
+        content: "Trust your intuition and gut instincts, but also rely on logic, evidence, and critical thinking to inform your decisions.",
         person: ""
     },
     {
-        content: "Seek advice from trusted mentors or advisors when facing important decisions.",
+        content: "Seek input and advice from trusted mentors, colleagues, or advisors to gain insights and perspectives before making important decisions.",
         person: ""
     },
     {
@@ -1255,7 +1255,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Learn from past decisions, both successes, and failures.",
+        content: "Learn from both successes and failures in your decision-making process, using feedback and experience to inform future choices.",
         person: ""
     },
     {
@@ -1271,43 +1271,43 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Seek out diverse perspectives and opinions when making decisions to gain a broader understanding of the situation.",
         person: ""
     },
     {
-        content: "",
+        content: "Consider the potential long-term consequences of your decisions, weighing the risks and benefits carefully.",
         person: ""
     },
     {
-        content: "",
+        content: "Take time to reflect and consider your options before making a decision, avoiding impulsive or reactionary choices.",
         person: ""
     },
     {
-        content: "",
+        content: "Set clear criteria and priorities to guide your decision-making process and ensure alignment with your values and goals.",
         person: ""
     },
     {
-        content: "",
+        content: "Consider the impact of your decisions on others and strive to make choices that are fair, ethical, and compassionate.",
         person: ""
     },
     {
-        content: "",
+        content: "Embrace uncertainty and ambiguity in decision-making, recognizing that not all outcomes can be predicted or controlled.",
         person: ""
     },
     {
-        content: "",
+        content: "Take ownership of your decisions and accept responsibility for the outcomes, learning and growing from the results, whether positive or negative.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice decision hygiene by setting decision deadlines and avoiding analysis paralysis.",
         person: ""
     },
     {
-        content: "",
+        content: "Be open to revisiting and adjusting decisions as new information becomes available, embracing flexibility and adaptability.",
         person: ""
     },
     {
-        content: "",
+        content: "Prioritize action over perfection, understanding that indecision can be more detrimental than imperfect decisions.",
         person: ""
     },
 
@@ -1349,47 +1349,47 @@ const advices = [
         person: ""
     },
     {
-        content: "Celebrate your resilience and achievements along the way.",
+        content: "Foster optimism and hopefulness by focusing on solutions and possibilities rather than dwelling on problems.",
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate a positive mindset by focusing on solutions and opportunities rather than dwelling on problems or setbacks.",
         person: ""
     },
     {
-        content: "",
+        content: "Foster strong social connections and support networks to lean on during difficult times and share burdens with others.",
         person: ""
     },
     {
-        content: "",
+        content: "Develop resilience-building techniques such as mindfulness, relaxation exercises, or journaling.",
         person: ""
     },
     {
-        content: "",
+        content: "Embrace change as a natural part of life and an opportunity for growth and transformation.",
         person: ""
     },
     {
-        content: "",
+        content: "Stay flexible and adaptable in the face of uncertainty, adjusting your plans and strategies as needed to navigate challenges.",
         person: ""
     },
     {
-        content: "",
+        content: "Maintain a sense of perspective and optimism, recognizing that setbacks and failures are temporary and can lead to new opportunities.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice gratitude and appreciation for the blessings in your life, even amidst adversity and challenges.",
         person: ""
     },
     {
-        content: "",
+        content: "Seek out learning and growth opportunities in every experience, viewing obstacles as opportunities for personal development and learning.",
         person: ""
     },
     {
-        content: "",
+        content: "Develop a support network of friends, family, and mentors who can provide encouragement and guidance during difficult times.",
         person: ""
     },
     {
-        content: "",
+        content: "Celebrate your resilience and inner strength, recognizing the progress you've made and the challenges you've overcome.",
         person: ""
     },
 
@@ -1427,7 +1427,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Practice kindness and compassion towards yourself and others.",
+        content: "Practice loving-kindness meditation to cultivate feelings of compassion, empathy, and goodwill towards yourself and others.",
         person: ""
     },
     {
@@ -1435,43 +1435,43 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate a beginner's mind by approaching each moment with curiosity, openness, and non-judgment.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-compassion by treating yourself with kindness and understanding, especially during times of difficulty or challenge.",
         person: ""
     },
     {
-        content: "",
+        content: "Use mindful breathing techniques to anchor yourself in the present moment and calm your mind and body.",
         person: ""
     },
     {
-        content: "",
+        content: "Incorporate mindfulness into everyday activities such as eating, walking, or washing dishes, by bringing your full attention to the present moment.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice gratitude by reflecting on the things you're thankful for each day, cultivating a sense of appreciation and abundance.",
         person: ""
     },
     {
-        content: "",
+        content: "Use body scan meditation to check in with your body and release tension or stress held in your muscles.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice acceptance and letting go of resistance to things you cannot change, allowing yourself to experience life as it unfolds.",
         person: ""
     },
     {
-        content: "",
+        content: "Create a dedicated space for mindfulness and meditation practice, free from distractions and conducive to relaxation and introspection.",
         person: ""
     },
     {
-        content: "",
+        content: "Seek out guided meditation practices or mindfulness apps to support your meditation journey and provide structure and guidance.",
         person: ""
     },
     {
-        content: "",
+        content: "Start with short meditation sessions and gradually increase the duration as you become more comfortable with the practice.",
         person: ""
     },
 
@@ -1489,11 +1489,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Conserve water by using it wisely and fixing leaks promptly.",
+        content: "Conserve water by fixing leaks, using water-saving appliances, and practicing mindful water usage habits.",
         person: ""
     },
     {
-        content: "Choose sustainable transportation options, such as walking, biking, or public transit.",
+        content: "Choose eco-friendly transportation options such as walking, biking, carpooling, or using public transit to reduce carbon emissions.",
         person: ""
     },
     {
@@ -1501,11 +1501,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Advocate for policies and initiatives that promote environmental sustainability.",
+        content: "Advocate for environmental policies and initiatives that promote conservation, renewable energy, and sustainable development.",
         person: ""
     },
     {
-        content: "Educate yourself and others about the importance of protecting the environment.",
+        content: "Educate yourself and others about environmental issues and their impacts on ecosystems, communities, and future generations.",
         person: ""
     },
     {
@@ -1517,27 +1517,27 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Reduce food waste by planning meals, composting organic waste, and using leftovers creatively.",
         person: ""
     },
     {
-        content: "",
+        content: "Opt for reusable alternatives to single-use items such as water bottles, shopping bags, and coffee cups to minimize waste.",
         person: ""
     },
     {
-        content: "",
+        content: "Support sustainable agriculture practices by choosing locally grown and organic foods whenever possible.",
         person: ""
     },
     {
-        content: "",
+        content: "Reduce energy consumption by using energy-efficient appliances, turning off lights and electronics when not in use, and insulating your home.",
         person: ""
     },
     {
-        content: "",
+        content: "Support businesses and organizations that prioritize sustainability and ethical practices in their operations and supply chains.",
         person: ""
     },
     {
-        content: "",
+        content: "Take action in your community by participating in clean-up efforts, tree planting initiatives, or environmental advocacy campaigns.",
         person: ""
     },
     {
@@ -1645,11 +1645,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Keep a gratitude journal to record things you're thankful for each day.",
+        content: "Keep a gratitude journal and write down three things you're thankful for each day, no matter how small or seemingly insignificant.",
         person: ""
     },
     {
-        content: "Express appreciation to others for their kindness and support.",
+        content: "Express gratitude to others by offering sincere compliments, acts of kindness, or words of appreciation.",
         person: ""
     },
     {
@@ -1681,45 +1681,46 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Spread positivity and kindness in your community by volunteering, helping others in need, or simply offering a smile or word of encouragement.",
         person: ""
     },
     {
-        content: "",
+        content: "Reflect on past challenges and setbacks as opportunities for growth and resilience, appreciating the lessons learned and strengths gained.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice forgiveness and let go of resentments or grudges, freeing yourself from negative emotions and cultivating peace and acceptance.",
         person: ""
     },
     {
-        content: "",
+        content: "Seek out opportunities for laughter and joy in everyday life, finding humor in difficult situations and embracing moments of lightness.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice positive self-talk to boost self-confidence and cultivate a sense of worthiness and belonging.",
         person: ""
     },
     {
-        content: "",
+        content: "Surround yourself with positive influences, such as supportive friends, inspiring books, or uplifting music.",
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate a positive mindset by focusing on solutions and opportunities rather than dwelling on problems or negativity.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice mindfulness by bringing your attention to the present moment and appreciating the beauty and blessings around you.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice reframing negative thoughts into more positive and empowering perspectives, challenging pessimism and self-doubt.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-care activities that nurture your physical, emotional, and mental well-being, prioritizing your health and happiness.",
         person: ""
     },
+
     // Empathy and Compassion
     {
         content: "Put yourself in others' shoes to better understand their perspectives.",
@@ -1730,11 +1731,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Show compassion towards those who are struggling or in need.",
+        content: "Show compassion to others by offering support, encouragement, and assistance when needed.",
         person: ""
     },
     {
-        content: "Practice kindness and generosity in your interactions with others.",
+        content: "Practice kindness and generosity by performing random acts of kindness and spreading positivity and goodwill.",
         person: ""
     },
     {
@@ -1746,11 +1747,11 @@ const advices = [
         person: ""
     },
     {
-        content: "Advocate for social justice and equality for all individuals.",
+        content: "Advocate for social justice and equality by standing up against injustice, discrimination, and oppression.",
         person: ""
     },
     {
-        content: "Practice forgiveness and let go of resentment towards others.",
+        content: "Practice forgiveness and understanding by letting go of resentments and judgments towards yourself and others.",
         person: ""
     },
     {
@@ -1762,23 +1763,23 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Practice active listening by giving your full attention to the speaker and seeking to understand their perspective.",
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate a sense of connection and belonging by fostering meaningful relationships and social connections.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-compassion by treating yourself with kindness and understanding, especially during times of difficulty or struggle.",
         person: ""
     },
     {
-        content: "",
+        content: "Engage in perspective-taking exercises to broaden your understanding and empathy for people from diverse backgrounds and experiences.",
         person: ""
     },
     {
-        content: "",
+        content: "Lead with empathy and compassion in your interactions and relationships, creating a culture of caring and support in your community.",
         person: ""
     },
     {
@@ -1828,7 +1829,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Surround yourself with people who respect and support your boundaries.",
+        content: "Surround yourself with supportive and respectful individuals who honor and respect your boundaries.",
         person: ""
     },
     {
@@ -1844,43 +1845,43 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Communicate using 'I' statements to express your needs and limits.",
         person: ""
     },
     {
-        content: "",
+        content: "Trust your instincts and intuition when it comes to recognizing situations or relationships that may violate your boundaries.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-care by prioritizing your physical, emotional, and mental well-being, even if it means saying no to others.",
         person: ""
     },
     {
-        content: "",
+        content: "Set limits on your time and energy by scheduling regular breaks and downtime to recharge and rejuvenate.",
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-awareness by tuning into your feelings and emotions and recognizing when your boundaries are being crossed.",
         person: ""
     },
     {
-        content: "",
+        content: "Take action to protect your boundaries when they are violated, whether through assertive communication, setting consequences, or seeking support.",
         person: ""
     },
     {
-        content: "",
+        content: "Be consistent in enforcing your boundaries, even if it means facing resistance or push back from others.",
         person: ""
     },
     {
-        content: "",
+        content: "Seek out resources and support networks that can help you maintain and reinforce healthy boundaries in your relationships and interactions.",
         person: ""
     },
     {
-        content: "",
+        content: "Reflect on your boundaries regularly and adjust them as needed to ensure they align with your values, needs, and priorities.",
         person: ""
     },
     {
-        content: "",
+        content: "Celebrate your progress and growth in setting and maintaining healthy boundaries, recognizing your worth and agency.",
         person: ""
     },
 
@@ -1910,7 +1911,7 @@ const advices = [
         person: ""
     },
     {
-        content: "Cultivate resilience by bouncing back from setbacks and adversity.",
+        content: "Practice resilience by bouncing back from setbacks and adversity with grace and determination.",
         person: ""
     },
     {
@@ -1926,46 +1927,46 @@ const advices = [
         person: ""
     },
     {
-        content: "",
+        content: "Practice self-awareness by tuning into your thoughts, feelings, and reactions in various situations.",
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate empathy by actively listening to others, seeking to understand their perspectives, and validating their emotions.",
         person: ""
     },
     {
-        content: "",
+        content: "Manage your emotions effectively by recognizing triggers and implementing coping strategies to regulate your mood and behavior.",
         person: ""
     },
     {
-        content: "",
+        content: "Develop social skills by building rapport, communicating assertively, and resolving conflicts constructively in your relationships.",
         person: ""
     },
     {
-        content: "",
+        content: "Cultivate optimism and a positive mindset by reframing challenges as opportunities for growth and learning.",
         person: ""
     },
     {
-        content: "",
+        content: "Recognize and manage stress effectively by implementing relaxation techniques, setting boundaries, and practicing self-care.",
         person: ""
     },
     {
-        content: "",
+        content: "Foster emotional connections and intimacy in your relationships by expressing vulnerability and authenticity.",
         person: ""
     },
     {
-        content: "",
+        content: "Develop emotional intelligence through ongoing learning, self-reflection, and feedback from others.",
         person: ""
     },
     {
-        content: "",
+        content: "Use emotional intelligence to navigate social dynamics, build rapport, and influence others positively in your personal and professional life.",
         person: ""
     },
     {
-        content: "",
+        content: "Develop assertiveness skills to express your needs and boundaries confidently and respectfully, without aggression or hostility.",
         person: ""
     },
-    
+
     // Humility and Service
     {
         content: "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others.",

@@ -1,7 +1,28 @@
+import quotes from './quotes.js';
 import advices from './advices.js';
 
-// Function to open the modal
-function openModal(modalId, advice) {
+// Function to open the modal for quotes
+function openQuoteModal(modalId, quote) {
+    const modalContent = `
+        <div id="${modalId}" class="modal">
+            <div class="modal-content">
+                <div class="quote">${quote.text}</div>
+                <div class="author">– ${quote.author}</div>
+                <span class="close" data-modal-id="${modalId}">&times;</span>
+            </div>
+        </div>
+    `;
+    document.getElementById('modalContainer').innerHTML = modalContent;
+
+    // Add event listener to the close button
+    const closeButton = document.querySelector(`#${modalId} .close`);
+    closeButton.addEventListener('click', () => {
+        closeModal(modalId);
+    });
+}
+
+// Function to open the modal for advices
+function openAdviceModal(modalId, advice) {
     const modalContent = `
         <div id="${modalId}" class="modal">
             <div class="modal-content">
@@ -25,12 +46,22 @@ function closeModal(modalId) {
     document.getElementById(modalId).remove();
 }
 
-// Add event listeners to each <p> element
+// Add event listeners to each <p> element within <details> elements for quotes
+document.querySelectorAll('.quotes-section details p').forEach((p, index) => {
+    p.addEventListener('click', () => {
+        const modalId = `modal${index + 1}`;
+        const quoteIndex = index;
+        const quote = quotes[quoteIndex];
+        openQuoteModal(modalId, quote);
+    });
+});
+
+// Add event listeners to each <p> element within <details> elements for advices
 document.querySelectorAll('.advice-section details p').forEach((p, index) => {
     p.addEventListener('click', () => {
         const modalId = `modal${index + 1}`;
         const adviceIndex = index;
         const advice = advices[adviceIndex];
-        openModal(modalId, advice);
+        openAdviceModal(modalId, advice);
     });
 });

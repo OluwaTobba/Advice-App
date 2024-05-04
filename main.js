@@ -7,7 +7,7 @@ function openQuoteModal(modalId, quote) {
         <div id="${modalId}" class="modal">
             <div class="modal-content">
                 <div class="quote">${quote.text}</div>
-                <div class="author">– ${quote.author}</div>
+                <div class="author">~ ${quote.author}</div>
                 <span class="close" data-modal-id="${modalId}">&times;</span>
             </div>
         </div>

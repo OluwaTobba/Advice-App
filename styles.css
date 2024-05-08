@@ -208,7 +208,7 @@ details[open] summary {
 }
 
 
-details p {
+.advice-section details p {
     font-family: "Platypi", serif;
     font-weight: 400;
     font-optical-sizing: auto;
@@ -219,7 +219,7 @@ details p {
     color: var(--primary-color);
     border-top: 1px solid var(--primary-color-dark);
 }
-details p:hover {
+.advice-section details p:hover {
     background-color: var(--btn-color);
     color: var(--secondary-color);
 }
@@ -231,6 +231,7 @@ details p:hover {
     padding: 6px 12px;
     margin-top: 15px;
     margin-bottom: 10px;
+    width: 800px;
     border-radius: 7px;
     background-color: var(--close-btn);
     color: var(--primary-color-dark);
@@ -263,7 +264,7 @@ details p:hover {
     /* font-weight: bold; */
     font-size: 20px;
     padding: 6px 12px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 7px;
     background-color: var(--primary-color-dark);
@@ -280,8 +281,106 @@ details p:hover {
     color: var(--text-color);
 }
 
+/* .timeline {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+} */
 
-/********** Modal *********/
+.category {
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+.carousel {
+    top: 15px;
+    left: 50%;
+    transform: translateX(-110px);
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: space-between;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    font-family: "Satisfy", sans-serif;
+    font-weight: 800;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-radius: 14px;
+    background-color: var(--modal-bg-color);
+    cursor: text;
+}
+.carousel-item .quote {
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+.carousel-item .author {
+    text-align: center;
+    margin-top: 5px;
+}
+.carousel-item:hover {
+    transform: scale(1.06);
+}
+
+
+/************** Arrow Buttons ***********/
+.arrow-btn {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 6px 8px #00000030;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.arrow-btn-next {
+    left: auto;
+    right: 20px;
+}
+
+.arrow-btn svg {
+    fill: var(--modal-bg-color);
+    position: absolute;
+    height: 80%;  
+    left: 50%;
+    top: 50%;
+    transform: translate(-60%,-50%);
+}
+
+.arrow-btn-next svg {
+    transform: translate(-40%,-50%);
+}
+
+
+/************** Modal *************/
 .modal {
     cursor: default;
     display: flex;
@@ -322,11 +421,7 @@ details p:hover {
 }
 
 
-
-
-
-
-/* Footer Section */
+/*********** Footer Section ************/
 .footer {
     color: var(--primary-color-dark);
     padding: 20px 0;
@@ -345,7 +440,8 @@ details p:hover {
 /************ Mobile Screens ************/
 @media (max-width: 376px) {
     .btn-container .btn {
-        padding: 6px 12px;
+        padding: 6px 10px;
+        transition: background-color 0.7s ease;
     }
 }
 
@@ -367,7 +463,6 @@ details p:hover {
     } */
 
     .nav_logo img {
-        /* margin-left: 100px; */
         width: 9rem;
         margin: 0 auto;
     }
@@ -384,7 +479,7 @@ details p:hover {
     .btn-container {
         margin-left: 5px;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
     
     .image-container {
@@ -395,10 +490,32 @@ details p:hover {
         max-width: 90%;
         margin: auto;
     }
+    .advice{
+        width: 270px;
+    }
 
     .quotes-section {
         max-width: 90%;
         margin: auto;
+    }
+
+    .carousel-container {
+        width: 300px;
+    }
+
+    .arrow-btn {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .arrow-btn-prev {
+        left: 5px;
+    }
+
+    .arrow-btn-next {
+        right: 5px;
     }
 
     .footer {
@@ -429,22 +546,8 @@ details p:hover {
         text-align: center;
     }
 
-    .btn-container .btn {
-        margin: 0 20px;
-    }
-
-    /* .content_container form {
-        margin-right: auto;
-        margin-left: auto;
-    } */
-
-    .image_container {
-        grid-area: auto;
-    }
-
-    .image_container img {
-        transform: translateY(0) !important;
-        margin: 0 auto;
+    .image-container {
+        display: none;
     }
 
     .advice-section {

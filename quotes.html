@@ -8,7 +8,9 @@
 
     <link rel="shortcut icon" href="/img/miaq-favicon-2.png" type="image/x-icon">
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 
     <link rel="stylesheet" href="/styles.css">
 </head>
@@ -29,355 +31,741 @@
 
     <main>
         <h4 class="quotes-header">......You may encounter many defeats, but you must not be defeated.......</h4>
-        <section class="quotes-section">
+        <section class="quotes-section timeline">
+            <!-- <div class="category">
+                <h2>Inspiration and Motivation</h2>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
+            </div> -->
+
+            <!----------- Inspiration and Motivation ---------->
             <details>
                 <summary>Inspiration and Motivation</summary>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
-                <p>Content for dropdown 1</p>
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"The future belongs to those who believe in the beauty of their dreams."</p> <br><p class="author">~ Eleanor Roosevelt</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"In the middle of difficulty lies opportunity."</p> <br><p class="author">~ Albert Einstein</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"The only limit to our realization of tomorrow will be our doubts of today."</p> <br><p class="author">~ Franklin D. Roosevelt</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"Your time is limited, don't waste it living someone else's life."</p> <br><p class="author">~ Steve Jobs</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"Dream big and dare to fail."</p> <br><p class="author">~ Norman Vaughan</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"The only impossible journey is the one you never begin."</p> <br><p class="author">~ Tony Robbins</p></div>
+
+                        <div class="carousel-item"> <p class="quote">"You are never too old to set another goal or to dream a new dream."</p> <br><p class="author">~ C.S. Lewis</p></div>
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
 
+
+            <!------------- Wisdom and Reflection ----------->
             <details>
                 <summary>Wisdom and Reflection</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Love and Relationships</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Resilience and Strength</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Happiness and Contentment</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Success and Achievement</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Leadership and Influence</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Learning and Growth</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Creativity and Innovation</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Time Management</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Decision Making</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Mindfulness and Reflection</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Resilience and Adaptability</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
 
             <details>
                 <summary>Environmental Sustainability</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Gratitude and Positivity</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Empathy and Compassion</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Personal Boundaries</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Emotional Intelligence</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Overcoming Obstacles</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Authenticity and Integrity</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Patience and Persistence</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Adversity and Strength</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Friendship and Community</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Self-Reflection and Growth</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
+
 
             <details>
                 <summary>Hope and Optimism</summary>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
-                <p>Content for dropdown 2</p>
+                
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Quotes for Inspiration and Motivation -->
+                        <div class="carousel-item"> <p class="quote">"The only way to do great work is to love what you do."</p> <br><p class="author">~ Steve Jobs</p></div>
+                        <div class="carousel-item"> <p class="quote">"Believe you can and you're halfway there."</p> <br><p class="author">~ Theodore Roosevelt</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <div class="carousel-item"> <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p> <br><p class="author">~ Winston Churchill</p></div>
+                        <!-- Add more quotes as needed -->
+                    </div>
+
+                    <button class="arrow-btn arrow-btn-prev" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn arrow-btn-next" tabindex="0">
+                        <svg viewBox="0 0 256 512">
+                          <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+                        </svg>
+                    </button>
+                </div>
             </details>
 
         </section>
@@ -388,6 +776,8 @@
         <p>&copy; <script>document.write(new Date().getFullYear());</script> MI <a href="/quotes.html">Quotes</a> & <a href="/advices.html">Advice</a> WebApp. All rights reserved.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script type="module" src="/main.js"></script>
 </body>
 </html>

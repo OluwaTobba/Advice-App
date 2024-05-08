@@ -1,25 +1,25 @@
-import quotes from './quotes.js';
+// import quotes from './quotes.js';
 import advices from './advices.js';
 
-// Function to open the modal for quotes
-function openQuoteModal(modalId, quote) {
-    const modalContent = `
-        <div id="${modalId}" class="modal">
-            <div class="modal-content">
-                <div class="quote">${quote.text}</div>
-                <div class="author">~ ${quote.author}</div>
-                <span class="close" data-modal-id="${modalId}">&times;</span>
-            </div>
-        </div>
-    `;
-    document.getElementById('modalContainer').innerHTML = modalContent;
+// // Function to open the modal for quotes
+// function openQuoteModal(modalId, quote) {
+//     const modalContent = `
+//         <div id="${modalId}" class="modal">
+//             <div class="modal-content">
+//                 <div class="quote">${quote.text}</div>
+//                 <div class="author">~ ${quote.author}</div>
+//                 <span class="close" data-modal-id="${modalId}">&times;</span>
+//             </div>
+//         </div>
+//     `;
+//     document.getElementById('modalContainer').innerHTML = modalContent;
 
-    // Add event listener to the close button
-    const closeButton = document.querySelector(`#${modalId} .close`);
-    closeButton.addEventListener('click', () => {
-        closeModal(modalId);
-    });
-}
+//     // Add event listener to the close button
+//     const closeButton = document.querySelector(`#${modalId} .close`);
+//     closeButton.addEventListener('click', () => {
+//         closeModal(modalId);
+//     });
+// }
 
 // Function to open the modal for advices
 function openAdviceModal(modalId, advice) {
@@ -65,3 +65,21 @@ document.querySelectorAll('.advice-section details p').forEach((p, index) => {
         openAdviceModal(modalId, advice);
     });
 });
+
+document.querySelectorAll('.carousel-container').forEach(container => {
+    const carousel = container.querySelector('.carousel');
+    const prevBtn = container.querySelector('.arrow-btn-prev');
+    const nextBtn = container.querySelector('.arrow-btn-next');
+    let position = 0;
+
+    prevBtn.addEventListener('click', () => {
+        position += 120;
+        carousel.style.transform = `translateX(${position}px)`;
+    });
+
+    nextBtn.addEventListener('click', () => {
+        position -= 120;
+        carousel.style.transform = `translateX(${position}px)`;
+    });
+});
+

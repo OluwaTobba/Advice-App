@@ -304,7 +304,7 @@ details[open] summary {
     overflow: hidden;
     margin: 0 auto;
     margin-top: 20px;
-    max-width: 900px;
+    max-width: 950px;
 }
 
 .carousel {
@@ -329,7 +329,7 @@ details[open] summary {
     margin-bottom: 5px;
     border-radius: 14px;
     background-color: var(--modal-bg-color);
-    cursor: text;
+    /* cursor: text; */
 }
 .carousel-item .quote {
     width: 200px;
@@ -343,6 +343,11 @@ details[open] summary {
 .carousel-item:hover {
     transform: scale(1.06);
 }
+
+/* .carousel-slide {
+    flex: 0 0 auto;
+    width: 100%;
+} */
 
 
 /************** Arrow Buttons ***********/
@@ -500,8 +505,13 @@ details[open] summary {
     }
 
     .carousel-container {
-        width: 300px;
+        max-width: 300px;
     }
+
+    /* .arrow-btn-prev,
+    .arrow-btn-next {
+        display: none;
+    } */
 
     .arrow-btn {
         width: 30px;

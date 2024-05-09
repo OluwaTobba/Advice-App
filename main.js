@@ -66,20 +66,60 @@ document.querySelectorAll('.advice-section details p').forEach((p, index) => {
     });
 });
 
+
 document.querySelectorAll('.carousel-container').forEach(container => {
     const carousel = container.querySelector('.carousel');
     const prevBtn = container.querySelector('.arrow-btn-prev');
     const nextBtn = container.querySelector('.arrow-btn-next');
-    let position = 0;
+    const cards = carousel.querySelectorAll('.carousel-item');
+    let currentPosition = 0;
+    const cardWidth = cards[0].offsetWidth;
 
     prevBtn.addEventListener('click', () => {
-        position += 120;
-        carousel.style.transform = `translateX(${position}px)`;
+        currentPosition += cardWidth;
+        if (currentPosition > 0) {
+            currentPosition = 0;
+        }
+        carousel.style.transform = `translateX(${currentPosition}px)`;
     });
 
     nextBtn.addEventListener('click', () => {
-        position -= 120;
-        carousel.style.transform = `translateX(${position}px)`;
+        currentPosition -= cardWidth;
+        const minPosition = -(cardWidth * (cards.length - 1));
+        if (currentPosition < minPosition) {
+            currentPosition = minPosition;
+        }
+        carousel.style.transform = `translateX(${currentPosition}px)`;
+    });
+
+    // Swipe functionality for touch screens
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    carousel.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+    });
+
+    carousel.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].clientX;
+        if (touchEndX < touchStartX) {
+            // Swiped left
+            currentPosition -= cardWidth;
+            const minPosition = -(cardWidth * (cards.length - 1));
+            if (currentPosition < minPosition) {
+                currentPosition = minPosition;
+            }
+            carousel.style.transform = `translateX(${currentPosition}px)`;
+        } else if (touchEndX > touchStartX) {
+            // Swiped right
+            currentPosition += cardWidth;
+            if (currentPosition > 0) {
+                currentPosition = 0;
+            }
+            carousel.style.transform = `translateX(${currentPosition}px)`;
+        }
     });
 });
+
+
 

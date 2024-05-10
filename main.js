@@ -76,6 +76,7 @@ document.querySelectorAll('.carousel-container').forEach(container => {
     let touchStartX = 0;
     let touchEndX = 0;
     const cardWidth = cards[0].offsetWidth;
+    const visibleCards = 1;
 
     // Set initial position to 0
     carousel.style.transform = `translateX(${currentPosition}px)`;
@@ -90,7 +91,7 @@ document.querySelectorAll('.carousel-container').forEach(container => {
 
     nextBtn.addEventListener('click', () => {
         currentPosition -= cardWidth;
-        const minPosition = -(cardWidth * (cards.length - 1));
+        const minPosition = -(cardWidth * (cards.length - visibleCards));
         if (currentPosition < minPosition) {
             currentPosition = minPosition;
         }
@@ -112,7 +113,7 @@ document.querySelectorAll('.carousel-container').forEach(container => {
             if (diff > 0) {
                 // Swiped left
                 currentPosition -= cardWidth;
-                const minPosition = -(cardWidth * (cards.length - 1));
+                const minPosition = -(cardWidth * (cards.length - visibleCards));
                 if (currentPosition < minPosition) {
                     currentPosition = minPosition;
                 }

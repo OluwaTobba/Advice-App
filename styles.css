@@ -508,12 +508,12 @@ details[open] summary {
         max-width: 300px;
     }
 
-    /* .arrow-btn-prev,
+    .arrow-btn-prev,
     .arrow-btn-next {
         display: none;
-    } */
+    }
 
-    .arrow-btn {
+    /* .arrow-btn {
         width: 30px;
         height: 30px;
         padding: 5px;
@@ -526,7 +526,7 @@ details[open] summary {
 
     .arrow-btn-next {
         right: 5px;
-    }
+    } */
 
     .footer {
         position: relative;

@@ -71,63 +71,16 @@ document.querySelectorAll('.carousel-container').forEach(container => {
     const carousel = container.querySelector('.carousel');
     const prevBtn = container.querySelector('.arrow-btn-prev');
     const nextBtn = container.querySelector('.arrow-btn-next');
-    const cards = carousel.querySelectorAll('.carousel-item');
-    let currentPosition = 0;
-    let touchStartX = 0;
-    let touchEndX = 0;
-    const cardWidth = cards[0].offsetWidth;
-    const visibleCards = 1;
-
-    // Set initial position to 0
-    carousel.style.transform = `translateX(${currentPosition}px)`;
+    let position = 0;
 
     prevBtn.addEventListener('click', () => {
-        currentPosition += cardWidth;
-        if (currentPosition > 0) {
-            currentPosition = 0;
-        }
-        carousel.style.transform = `translateX(${currentPosition}px)`;
+        position += 120;
+        carousel.style.transform = `translateX(${position}px)`;
     });
 
     nextBtn.addEventListener('click', () => {
-        currentPosition -= cardWidth;
-        const minPosition = -((cards.length - visibleCards) * cardWidth);
-        if (currentPosition < minPosition) {
-            currentPosition = minPosition;
-        }
-        carousel.style.transform = `translateX(${currentPosition}px)`;
-    });
-
-    carousel.addEventListener('touchstart', (e) => {
-        touchStartX = e.touches[0].clientX;
-    });
-
-    carousel.addEventListener('touchmove', (e) => {
-        touchEndX = e.touches[0].clientX;
-    });
-
-    carousel.addEventListener('touchend', () => {
-        const diff = touchStartX - touchEndX;
-        const threshold = cardWidth / 4;
-        if (Math.abs(diff) > threshold) {
-            if (diff > 0) {
-                // Swiped left
-                currentPosition -= cardWidth;
-                const minPosition = -((cards.length - visibleCards) * cardWidth);
-                if (currentPosition < minPosition) {
-                    currentPosition = minPosition;
-                }
-            } else {
-                // Swiped right
-                currentPosition += cardWidth;
-                if (currentPosition > 0) {
-                    currentPosition = 0;
-                }
-            }
-            carousel.style.transform = `translateX(${currentPosition}px)`;
-        }
-        touchStartX = 0;
-        touchEndX = 0;
+        position -= 120;
+        carousel.style.transform = `translateX(${position}px)`;
     });
 });
 

@@ -91,7 +91,7 @@ document.querySelectorAll('.carousel-container').forEach(container => {
 
     nextBtn.addEventListener('click', () => {
         currentPosition -= cardWidth;
-        const minPosition = -(cardWidth * (cards.length - visibleCards));
+        const minPosition = -((cards.length - visibleCards) * cardWidth);
         if (currentPosition < minPosition) {
             currentPosition = minPosition;
         }
@@ -113,7 +113,7 @@ document.querySelectorAll('.carousel-container').forEach(container => {
             if (diff > 0) {
                 // Swiped left
                 currentPosition -= cardWidth;
-                const minPosition = -(cardWidth * (cards.length - visibleCards));
+                const minPosition = -((cards.length - visibleCards) * cardWidth);
                 if (currentPosition < minPosition) {
                     currentPosition = minPosition;
                 }

@@ -313,7 +313,8 @@ details[open] summary {
     transform: translateX(-110px);
     display: flex;
     flex-direction: row;
-    width: 1200px;
+    flex-wrap: nowrap;
+    width: auto;
     justify-content: space-between;
     transition: transform 0.5s ease;
 }
@@ -321,9 +322,11 @@ details[open] summary {
 .carousel-item {
     font-family: "Satisfy", sans-serif;
     font-weight: 800;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20px;
     padding: 20px;
+    flex: 0 0 auto;
+    width: 250px;
     margin-top: 15px;
     margin-right: 20px;
     margin-bottom: 5px;
@@ -332,7 +335,7 @@ details[open] summary {
     /* cursor: text; */
 }
 .carousel-item .quote {
-    width: 200px;
+    /* width: 200px; */
     text-align: center;
     border-radius: 20px;
 }
@@ -508,6 +511,10 @@ details[open] summary {
         max-width: 300px;
     }
 
+    .carousel-item {
+        width: 260px;
+    }
+
     /* .arrow-btn-prev,
     .arrow-btn-next {
         display: none;
@@ -560,6 +567,18 @@ details[open] summary {
         display: none;
     }
 
+    .advice-section {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .quotes-section {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1200px) {
     .advice-section {
         max-width: 90%;
         margin: auto;

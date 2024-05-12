@@ -67,22 +67,53 @@ document.querySelectorAll('.advice-section details p').forEach((p, index) => {
 });
 
 
+// Quotes - carousel
+// document.querySelectorAll('.carousel-container').forEach(container => {
+//     const carousel = container.querySelector('.carousel');
+//     const prevBtn = container.querySelector('.arrow-btn-prev');
+//     const nextBtn = container.querySelector('.arrow-btn-next');
+//     let position = 0;
+
+//     prevBtn.addEventListener('click', () => {
+//         position += 120;
+//         carousel.style.transform = `translateX(${position}px)`;
+//     });
+
+//     nextBtn.addEventListener('click', () => {
+//         position -= 120;
+//         carousel.style.transform = `translateX(${position}px)`;
+//     });
+// });
+
 document.querySelectorAll('.carousel-container').forEach(container => {
     const carousel = container.querySelector('.carousel');
+    const carouselItems = container.querySelectorAll('.carousel-item');
     const prevBtn = container.querySelector('.arrow-btn-prev');
     const nextBtn = container.querySelector('.arrow-btn-next');
     let position = 0;
+    const itemWidth = 120; // Assuming each carousel item has a width of 120px
+
+    window.onload = function () {
+        position = 0;
+        carousel.style.transform = `translateX(${position}px)`
+    };
 
     prevBtn.addEventListener('click', () => {
-        position += 120;
-        carousel.style.transform = `translateX(${position}px)`;
+       if (position < 0) {
+            position += itemWidth;
+            carousel.style.transform = `translateX(${position}px)`;
+       }
     });
 
     nextBtn.addEventListener('click', () => {
-        position -= 120;
-        carousel.style.transform = `translateX(${position}px)`;
+        const maxPosition = -(carouselItems.length - 1) * itemWidth;
+        if (position > maxPosition) {
+            position -= itemWidth;
+            carousel.style.transform = `translateX(${position}px)`;
+        }
     });
 });
+
 
 
 

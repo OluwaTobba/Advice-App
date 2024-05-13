@@ -122,7 +122,12 @@ window.onload = function () {
         const prevBtn = container.querySelector('.arrow-btn-prev');
         const nextBtn = container.querySelector('.arrow-btn-next');
         let position = 0;
-        const itemWidth = 120; // Assuming each carousel item has a width of 120px
+        let itemWidth = 230;
+
+        // Adjust itemWidth for mobile screens
+        if (window.innerWidth <= 440) {
+            itemWidth = 240;
+        }
 
         carousel.style.transform = `translateX(${position}px)`;
 
@@ -138,6 +143,15 @@ window.onload = function () {
             if (position > maxPosition) {
                 position -= itemWidth;
                 carousel.style.transform = `translateX(${position}px)`;
+            }
+        });
+
+        // Update itemWidth on window resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth <= 440) {
+                itemWidth = 240; // Adjust item width for mobile
+            } else {
+                itemWidth = 230; // Default item width for desktop
             }
         });
     });
